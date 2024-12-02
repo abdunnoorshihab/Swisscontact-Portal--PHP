@@ -1,21 +1,7 @@
-<!DOCTYPE php>
-<php lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Responsive Navigation</title>
-  <!-- Tailwind CSS CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-</head>
 
 <body class="bg-gray-100 font-sans antialiased flex flex-col h-screen">
   <div class="md:container md:mx-auto">
-
-  <?php require_once('header.php') ?>
+    <?php require_once('header.php') ?>
 
     <!-- Main Content -->
     <main class="container mx-auto px-6 py-8">
@@ -309,7 +295,6 @@
       </section>
 
       <!-- Forms & Templates -->
-      <body class="bg-gray-100">
         <div class="container mx-auto p-6">
             <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Forms & Templates</h1>
 
@@ -339,68 +324,68 @@
             </button>
         </div>
 
-    <!-- JavaScript for AJAX Call -->
-    <script>
-    $(document).ready(function() {
-        // Load data initially (3 rows)
-        load_data();
+          <!-- JavaScript for AJAX Call -->
+        <script>
+          $(document).ready(function() {
+              // Load data initially (3 rows)
+              load_data();
 
-        // Function to load data
-        function load_data(query = '') {
-            $.ajax({
-                url: "fetch_forms.php",
-                method: "POST",
-                data: { query: query },
-                success: function(data) {
-                    $('#result_forms').html(data); // Display fetched data
-                },
-                error: function() {
-                    $('#result_forms').html('<p class="p-4 text-red-500">Error fetching data.</p>');
-                }
-            });
-        }
+              // Function to load data
+              function load_data(query = '') {
+                  $.ajax({
+                      url: "fetch_forms.php",
+                      method: "POST",
+                      data: { query: query },
+                      success: function(data) {
+                          $('#result_forms').html(data); // Display fetched data
+                      },
+                      error: function() {
+                          $('#result_forms').html('<p class="p-4 text-red-500">Error fetching data.</p>');
+                      }
+                  });
+              }
 
-        // Event listener for search input
-        $('#search_text_forms').on('keyup', function() {
-            var search = $(this).val();
-            load_data(search); // Fetch filtered data
-        });
-    });
-    </script>
+              // Event listener for search input
+              $('#search_text_forms').on('keyup', function() {
+                  var search = $(this).val();
+                  load_data(search); // Fetch filtered data
+              });
+          });
+        </script>
 
     <!-- Staff Directory Section -->
-    <div class="container mx-auto p-6">
-        <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Staff Directory</h1>
+        <div class="container mx-auto p-6">
+            <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Staff Directory</h1>
 
-        <!-- Search Bar -->
-        <div class="flex justify-center mb-6">
-            <div class="relative w-full max-w-md">
-                <input
-                    id="search_text_staff" 
-                    type="text"
-                    class="w-full p-4 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Search for employees..."
-                />
-                <button class="absolute right-3 top-3 text-gray-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                    </svg>
-                </button>
+            <!-- Search Bar -->
+            <div class="flex justify-center mb-6">
+                <div class="relative w-full max-w-md">
+                    <input
+                        id="search_text_staff" 
+                        type="text"
+                        class="w-full p-4 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="Search for employees..."
+                    />
+                    <button class="absolute right-3 top-3 text-gray-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-        </div>
 
-        <!-- Results Table -->
-        <div id="result_staff" class="bg-white shadow-lg rounded-lg overflow-hidden h-60"> <!-- Changed ID -->
-            <!-- Fetched data will load here -->
-        </div>
+            <!-- Results Table -->
+            <div id="result_staff" class="bg-white shadow-lg rounded-lg overflow-hidden h-60"> <!-- Changed ID -->
+                <!-- Fetched data will load here -->
+            </div>
 
-        <button type="button" class="py-2.5 px-5 w-full text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border-2 border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-            <a href="staff-list.php">Show all Employees</a>
-        </button>
-    </div>
+            <button type="button" class="py-2.5 px-5 w-full text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border-2 border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                <a href="staff-list.php">Show all Employees</a>
+            </button>
+        </div>
 
         <!-- JavaScript for AJAX Call (Staff Directory) -->
-        <script>
+      <script>
         $(document).ready(function() {
             // Load data initially (3 rows)
             load_data();
@@ -426,13 +411,13 @@
                 load_data(search); // Fetch filtered data
             });
         });
-        </script>
+      </script>
 
     <!-- Vendors Section -->
     <div class="container mx-auto p-6">
-    <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Vendors</h1>
+      <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Vendors</h1>
 
-    <!-- Search Bar -->
+      <!-- Search Bar -->
         <div class="flex justify-center mb-6">
                 <div class="relative w-full max-w-md">
                     <input
@@ -485,31 +470,31 @@
 
           <!-- JavaScript for AJAX Call (Staff Directory) -->
             <script>
-            $(document).ready(function() {
-                // Load data initially (3 rows)
-                load_data();
+              $(document).ready(function() {
+                  // Load data initially (3 rows)
+                  load_data();
 
-                // Function to load data
-                function load_data(query = '') {
-                    $.ajax({
-                        url: "fetch_vendor.php",  // Use your staff fetch endpoint
-                        method: "POST",
-                        data: { query: query },
-                        success: function(data) {
-                            $('#result_vendor').html(data); // Display fetched data
-                        },
-                        error: function() {
-                            $('#result_vendor').html('<p class="p-4 text-red-500">Error fetching data.</p>');
-                        }
-                    });
-                }
+                  // Function to load data
+                  function load_data(query = '') {
+                      $.ajax({
+                          url: "fetch_vendor.php",  // Use your staff fetch endpoint
+                          method: "POST",
+                          data: { query: query },
+                          success: function(data) {
+                              $('#result_vendor').html(data); // Display fetched data
+                          },
+                          error: function() {
+                              $('#result_vendor').html('<p class="p-4 text-red-500">Error fetching data.</p>');
+                          }
+                      });
+                  }
 
-                // Event listener for search input
-                $('#search_text_vendor').on('keyup', function() {
-                    var search = $(this).val();
-                    load_data(search); // Fetch filtered data
-                });
-            });
+                  // Event listener for search input
+                  $('#search_text_vendor').on('keyup', function() {
+                      var search = $(this).val();
+                      load_data(search); // Fetch filtered data
+                  });
+              });
             </script>
 
       <!-- Project Templates -->
@@ -756,5 +741,3 @@
 
   </div>
 </body>
-
-</php>

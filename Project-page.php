@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Layout</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
 <?php require_once('header.php') ?>
 
 <body class="font-sans">
@@ -541,9 +534,3 @@
 
     <!-- Footer -->
     <?php require_once('footer.php') ?>
-
-    
-
-</body>
-
-</html>

@@ -16,14 +16,7 @@ $sql = "SELECT * FROM formsdb";
 $result = mysqli_query($conn, $sql);
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms & Templates</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
+
 <?php require_once('header.php');?>
 <body>
 <h2 class="text-2xl text-center font-semibold mb-6">Forms & Templates</h2>
@@ -98,7 +91,6 @@ function searchForms() {
     });
 }
 </script>
-
-</body>
 <?php require_once('footer.php');?>
-</html>
+</body>
+
