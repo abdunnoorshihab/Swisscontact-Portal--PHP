@@ -4,15 +4,15 @@
     <?php require_once('header.php') ?>
 
     <!-- Main Content -->
-    <main class="container mx-auto px-6 py-8">
+      <main class="container mx-auto px-6 py-8">
 
-      <!-- Welcome Banner -->
+    <!-- Welcome Banner -->
       <figure class="max-w-full">
         <img class=" w-full h-96 object-cover rounded-lg" src="img/banner2.png" alt="image description">
       </figure>
 
 
-      <!-- Quick Links -->
+    <!-- Quick Links -->
       <section class="mb-8">
         <h2 class="text-2xl font-semibold mb-4 mt-6">Quick Links</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-8 gap-6 ">
@@ -294,7 +294,7 @@
         </div>
       </section>
 
-      <!-- Forms & Templates -->
+    <!-- Forms & Templates -->
         <div class="container mx-auto p-6">
             <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Forms & Templates</h1>
 
@@ -414,7 +414,7 @@
       </script>
 
     <!-- Vendors Section -->
-    <div class="container mx-auto p-6">
+      <div class="container mx-auto p-6">
       <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Vendors</h1>
 
       <!-- Search Bar -->
@@ -497,7 +497,7 @@
               });
             </script>
 
-      <!-- Project Templates -->
+    <!-- Project Templates -->
 
       <section class="mb-8">
         <h2 class="text-2xl font-semibold mb-4 mt-6">Project Templates</h2>
@@ -596,7 +596,7 @@
         </div>
       </section>
 
-      <!-- IT Tutorials -->
+    <!-- IT Tutorials -->
 
       <section id="tutorials" class="mb-8 w-full">
         <h2 class="text-2xl font-semibold mb-4">IT Tutorials</h2>
@@ -693,7 +693,7 @@
         </ul>
       </section>
 
-      <!-- Knowledge Sharing -->
+    <!-- Knowledge Sharing -->
       <section id="knowledge" class="mb-8">
         <h2 class="text-2xl font-semibold mb-4">Knowledge Sharing</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -712,7 +712,7 @@
         </div>
       </section>
 
-      <!-- Gender Equality -->
+    <!-- Gender Equality -->
       <section id="guidelines" class="mb-8">
         <h2 class="text-2xl font-semibold mb-4">Gender Equality</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -734,7 +734,7 @@
         </div>
       </section>
 
-    </main>
+      </main>
 
     <!-- Footer -->
     <?php require_once('footer.php') ?>
