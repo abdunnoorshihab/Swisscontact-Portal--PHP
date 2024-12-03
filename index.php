@@ -18,7 +18,7 @@
             height:120px;
           }
           .swiper-wrapper{
-            height: 150px;
+            height: 120px;
           }
       </style>
       <section>
@@ -454,7 +454,7 @@
                   <div class="swiper-button-prev text-black  rounded-full p-5"></div>
 
                   <!-- Swiper Pagination -->
-                  <div class="swiper-pagination"></div>
+                  <!-- <div style="pt-20;"class="swiper-pagination"></div> -->
               </div>
           </div>
 
