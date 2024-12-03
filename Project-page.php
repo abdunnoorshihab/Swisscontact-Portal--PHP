@@ -4,7 +4,7 @@
 <body class="font-sans">
 
     <!-- Title -->
-    <div class=" bg-white text-center py-8 text-4xl font-bold">
+    <div class=" bg-white text-center py-8 text-4xl">
         <h2> Achieving Sustainability Towards Healthcare Access (ASTHA)</h2>
     </div>
 
@@ -16,96 +16,179 @@
      <!-- External Press Release -->
             <section id="tutorials" class=" p-5 mb-5 shadow w-full">
                     <h2 class="text-2xl font-semibold mb-4">External Press Release</h2>
-                    <ul class=" gap-5">
+                <ul class=" gap-5">
 
-                    <button class="relative bg-cyan-100 text-black text-lg font-medium px-6 py-3 rounded-lg shadow-lg hover:bg-gray-200 border-2 border-zinc-300">
-                        <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project">
-                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900">
+                    <div class="box-border m-auto h-20 p-4 
+                                border-4 bg-gray-100 m4">
+                                <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project">
+                            <h5 class="mb-2 tracking-tight text-gray-900">
                             Ain o Shalish Kendra launches ASTHA Project...
                             <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project" class="text-blue-500 hover:underline">
                                 Read Article
                             </a>
                             </h5>
                         </a>
-                        <span class="absolute right-[-20px] top-[-12px] bg-red-300 text-black text-sm font-bold py-1 px-3 rounded-full transform rotate-[20deg]">
-                            NEW
-                        </span>
-                    </button>
-                    <button class="relative bg-cyan-100 text-black text-lg font-medium px-6 py-3 rounded-lg shadow-lg hover:bg-gray-200 border-2 border-zinc-300">
-                        <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project">
-                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900">
+                    </div>
+                    <div class="box-border m-auto h-20 p-4 
+                                border-4 bg-gray-100 m4">
+                                <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project">
+                            <h5 class="mb-2 tracking-tight text-gray-900">
                             Ain o Shalish Kendra launches ASTHA Project...
                             <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project" class="text-blue-500 hover:underline">
                                 Read Article
                             </a>
                             </h5>
                         </a>
-                        <span class="absolute right-[-20px] top-[-12px] bg-red-300 text-black text-sm font-bold py-1 px-3 rounded-full transform rotate-[20deg]">
-                            NEW
-                        </span>
-                    </button>
-                    <button class="relative bg-cyan-100 text-black text-lg font-medium px-6 py-3 rounded-lg shadow-lg hover:bg-gray-200 border-2 border-zinc-300">
-                        <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project">
-                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900">
+                    </div>
+                    <div class="box-border m-auto h-20 p-4 
+                                border-4 bg-gray-100 m4">
+                                <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project">
+                            <h5 class="mb-2 tracking-tight text-gray-900">
                             Ain o Shalish Kendra launches ASTHA Project...
                             <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project" class="text-blue-500 hover:underline">
                                 Read Article
                             </a>
                             </h5>
                         </a>
-                        <span class="absolute right-[-20px] top-[-12px] bg-red-300 text-black text-sm font-bold py-1 px-3 rounded-full transform rotate-[20deg]">
-                            NEW
-                        </span>
-                    </button>
-                    <button class="relative bg-cyan-100 text-black text-lg font-medium px-6 py-3 rounded-lg shadow-lg hover:bg-gray-200 border-2 border-zinc-300">
-                        <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project">
-                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900">
+                    </div>
+                    <div class="box-border m-auto h-20 p-4 
+                                border-4 bg-gray-100 m4">
+                                <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project">
+                            <h5 class="mb-2 tracking-tight text-gray-900">
                             Ain o Shalish Kendra launches ASTHA Project...
                             <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project" class="text-blue-500 hover:underline">
                                 Read Article
                             </a>
                             </h5>
                         </a>
-                        <span class="absolute right-[-20px] top-[-12px] bg-red-300 text-black text-sm font-bold py-1 px-3 rounded-full transform rotate-[20deg]">
-                            NEW
-                        </span>
-                    </button>
-
+                    </div>
+                    <div class="box-border m-auto h-20 p-4 
+                                border-4 bg-gray-100 m4">
+                                <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project">
+                            <h5 class="mb-2 tracking-tight text-gray-900">
+                            Ain o Shalish Kendra launches ASTHA Project...
+                            <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project" class="text-blue-500 hover:underline">
+                                Read Article
+                            </a>
+                            </h5>
+                        </a>
+                    </div>
+                    <div class="box-border m-auto h-20 p-4 
+                                border-4 bg-gray-100 m4">
+                                <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project">
+                            <h5 class="mb-2 tracking-tight text-gray-900">
+                            Ain o Shalish Kendra launches ASTHA Project...
+                            <a href="https://www.dhakatribune.com/bangladesh/dhaka/163161/ain-o-shalish-kendra-launches-astha-project" class="text-blue-500 hover:underline">
+                                Read Article
+                            </a>
+                            </h5>
+                        </a>
+                    </div>
+                </ul>
             </section>
             <h2 class="text-2xl font-semibold p-5 mb-5">Photo Gallery</h2>
             <div class="grid gap-4 p-5 mb-5">
-                <div>
-                    <img class="h-auto  w-full max-w-full rounded-lg object-cover object-center md:h-[480px]"
-                    src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
-                    alt="" />
-                </div>
-                <div class="grid grid-cols-5 gap-4">
-                    <div>
-                    <img
-                        src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"
-                        class="object-cover object-center h-20 max-w-full rounded-lg cursor-pointer" alt="gallery-image" />
+            
+
+                    <div class="relative max-w-4xl mx-auto">
+                    <!-- Slide Container -->
+                    <div class="relative">
+                        <div class="mySlides hidden">
+                        <div class="absolute top-0 left-0 text-white text-sm p-2 bg-black bg-opacity-50 rounded">1 / 6</div>
+                        <img src="img/astha 1.jpg" class="w-full">
+                        </div>
+
+                        <div class="mySlides hidden">
+                        <div class="absolute top-0 left-0 text-white text-sm p-2 bg-black bg-opacity-50 rounded">2 / 6</div>
+                        <img src="img/astha 2.jpg" class="w-full">
+                        </div>
+
+                        <div class="mySlides hidden">
+                        <div class="absolute top-0 left-0 text-white text-sm p-2 bg-black bg-opacity-50 rounded">3 / 6</div>
+                        <img src="img/astha 3.jpg" class="w-full">
+                        </div>
+
+                        <div class="mySlides hidden">
+                        <div class="absolute top-0 left-0 text-white text-sm p-2 bg-black bg-opacity-50 rounded">4 / 6</div>
+                        <img src="img/banner2.png" class="w-full">
+                        </div>
+
+                        <div class="mySlides hidden">
+                        <div class="absolute top-0 left-0 text-white text-sm p-2 bg-black bg-opacity-50 rounded">5 / 6</div>
+                        <img src="img/unicef.png" class="w-full">
+                        </div>
+
+                        <div class="mySlides hidden">
+                        <div class="absolute top-0 left-0 text-white text-sm p-2 bg-black bg-opacity-50 rounded">6 / 6</div>
+                        <img src="img/astha 2.jpg" class="w-full">
+                        </div>
+
+                        <!-- Navigation Buttons -->
+                        <a class="prev absolute top-1/2 left-0 transform -translate-y-1/2 text-white text-2xl font-bold p-4 bg-gray-800 bg-opacity-50 hover:bg-opacity-75 cursor-pointer rounded-r-lg" onclick="plusSlides(-1)">❮</a>
+                        <a class="next absolute top-1/2 right-0 transform -translate-y-1/2 text-white text-2xl font-bold p-4 bg-gray-800 bg-opacity-50 hover:bg-opacity-75 cursor-pointer rounded-l-lg" onclick="plusSlides(1)">❯</a>
                     </div>
-                    <div>
-                    <img
-                        src="https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80"
-                        class="object-cover object-center h-20 max-w-full rounded-lg cursor-pointer" alt="gallery-image" />
+
+                    <!-- Caption Container -->
+                    <div class="text-center bg-gray-800 text-white py-2">
+                        <p id="caption"></p>
                     </div>
-                    <div>
-                    <img
-                        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
-                        class="object-cover object-center h-20 max-w-full rounded-lg cursor-pointer" alt="gallery-image" />
+
+                    <!-- Thumbnail Row -->
+                    <div class="flex justify-center mt-4">
+                        <div class="w-1/6 px-1">
+                        <img class="demo cursor w-full opacity-60 hover:opacity-100" src="img/astha 1.jpg" onclick="currentSlide(1)" alt="The Woods">
+                        </div>
+                        <div class="w-1/6 px-1">
+                        <img class="demo cursor w-full opacity-60 hover:opacity-100" src="img/astha 2.jpg" onclick="currentSlide(2)" alt="Cinque Terre">
+                        </div>
+                        <div class="w-1/6 px-1">
+                        <img class="demo cursor w-full opacity-60 hover:opacity-100" src="img/astha 3.jpg" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="w-1/6 px-1">
+                        <img class="demo cursor w-full opacity-60 hover:opacity-100" src="img/banner2.png" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                        <div class="w-1/6 px-1">
+                        <img class="demo cursor w-full opacity-60 hover:opacity-100" src="img/unicef.png" onclick="currentSlide(5)" alt="Nature and sunrise">
+                        </div>    
+                        <div class="w-1/6 px-1">
+                        <img class="demo cursor w-full opacity-60 hover:opacity-100" src="img/astha 2.jpg" onclick="currentSlide(6)" alt="Snowy Mountains">
+                        </div>
                     </div>
-                    <div>
-                    <img
-                        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2762&amp;q=80"
-                        class="object-cover object-center h-20 max-w-full rounded-lg cursor-pointer" alt="gallery-image" />
                     </div>
-                    <div>
-                    <img
-                        src="https://images.unsplash.com/photo-1682407186023-12c70a4a35e0?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2832&amp;q=80"
-                        class="object-cover object-center h-20 max-w-full rounded-lg cursor-pointer" alt="gallery-image" />
-                    </div>
-                </div>
+
+                    <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                    }
+
+                    function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("demo");
+                    let captionText = document.getElementById("caption");
+                    if (n > slides.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].classList.add("hidden");
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].classList.remove("opacity-100");
+                        dots[i].classList.add("opacity-60");
+                    }
+                    slides[slideIndex-1].classList.remove("hidden");
+                    dots[slideIndex-1].classList.remove("opacity-60");
+                    dots[slideIndex-1].classList.add("opacity-100");
+                    captionText.innerHTML = dots[slideIndex-1].alt;
+                    }
+                    </script>
+
             </div>
             <!-- Card 2 -->
             <h2 class="text-2xl font-semibold px-5">Resources for Project Astha</h2>
@@ -525,12 +608,13 @@
             </div>
             <!-- Partners -->
             <div class="card bg-white rounded-xl p-4 shadow-lg">
-                <h3 class="text-lg font-semibold">Partners</h3>
+                <h3 class= "font-semibold">Partners</h3>
                 <img src="img/unicef.png" alt="" srcset="">
                 <img src="img/save the children.png" alt="" srcset="">
             </div>
         </div>
     </div>
+</body>
 
     <!-- Footer -->
-    <?php require_once('footer.php') ?>
+<?php require_once('footer.php') ?>

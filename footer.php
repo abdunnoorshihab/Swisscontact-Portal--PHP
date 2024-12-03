@@ -6,7 +6,7 @@
     <title>footer</title>
 </head>
 <body>
-<footer class="bg-white shadow py-4">
+<footer class="bg-white shadow py-4 w-full">
       <div class="container mx-auto px-6 text-center text-gray-700">
         <p>&copy; 2024 Swisscontact. All rights reserved.</p>
       </div>

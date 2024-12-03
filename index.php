@@ -30,7 +30,7 @@
                       <!-- Card 1 -->
                       <div class="swiper-slide rounded-lg shadow-lg overflow-hidden w-64">
                           <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition flex flex-col justify-between">
-                              <div class="flex justify-center items-center h-1/2">
+                              <div class="flex justify-center relative items-center full">
                                   <!-- Icon Placeholder -->
                                   <svg version="1.1" id="layer" xmlns="http://www.w3.org/2000/svg"
                                           xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px"  viewBox="0 0 652 652"
@@ -82,7 +82,7 @@
                                   </svg>
                               </div>
                               <div class="p-3">
-                                  <h3 class="text-xs text-center">Swisscontact Bangladesh</h3>
+                                  <h3 class="text-xs absulate text-center">Swisscontact Bangladesh</h3>
                               </div>
                           </a>
                       </div>
