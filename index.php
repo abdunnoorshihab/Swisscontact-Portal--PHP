@@ -23,7 +23,7 @@
       <section>
         <h2 class="text-2xl font-semibold mb-4 mt-6">Quick Links</h2>
 
-          <div class="container mx-auto p-4">
+          <div class="container relative relative group w-full h-full mx-auto px-4">
               <div class="swiper mySwiper">
                   <div class="swiper-wrapper">
                       <!-- Card 1 -->
@@ -32,7 +32,7 @@
                               <div class="flex justify-center relative items-center full">
                                   <!-- Icon Placeholder -->
                                   <svg version="1.1" id="layer" xmlns="http://www.w3.org/2000/svg"
-                                          xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px"  viewBox="0 0 652 652"
+                                          xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px"  viewBox="0 0 652 652"
                                           style="enable-background:new 0 0 652 652;" xml:space="preserve">
                                           <style type="text/css">
                                           .st0 {
@@ -80,7 +80,7 @@
                                               C321.6,261.6,332.9,261.6,344.6,261.6" />
                                   </svg>
                               </div>
-                              <div class="p-3">
+                              <div class="pb-6">
                                   <h3 class="text-xs absulate text-center">Swisscontact Bangladesh</h3>
                               </div>
                           </a>
@@ -449,8 +449,14 @@
                   </div>
 
                   <!-- Swiper Navigation buttons -->
-                  <div class="swiper-button-next text-black  rounded-full p-5"></div>
-                  <div class="swiper-button-prev text-black  rounded-full p-5"></div>
+                  
+                    <!-- Swiper Button Next -->
+                    <div class="swiper-button-next text-black p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    
+                    <!-- Swiper Button Prev -->
+                    <div class="swiper-button-prev text-black p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                 
+
 
                   <!-- Swiper Pagination -->
                   <!-- <div style="pt-20;"class="swiper-pagination"></div> -->
@@ -460,7 +466,7 @@
 
     <!-- Forms & Templates -->
         <div class="container mx-auto p-2">
-            <!-- <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Forms & Templates</h1> -->
+            <h1 class="text-2xl font-bold text-gray-800 mb-4">Forms & Templates</h1>
 
             <!-- Search Bar -->
 
@@ -482,8 +488,8 @@
               </div>
 
               <div class="w-full flex justify-end">
-                <button type="button" class="py-2 px-2 w-1/4 text-sm font-medium text-white focus:outline-none bg-blue-700 rounded-2xl border-2 border-blue-200 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-                  <a href="staff-list.php">Show all Forms</a>
+                <button type="button" class="py-2 px-2 w-1/4 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-500 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300">
+                  <a href="forms.php">Show all Forms</a>
                 </button>
               </div>
 
@@ -497,8 +503,8 @@
 
         </div>
     <!-- Staff Directory Section -->
-        <div class="container mx-auto p-6">
-            <!-- <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Staff Directory</h1> -->
+        <div class="container mx-auto p-2">
+            <h1 class="text-2xl font-bold text-gray-800 mb-4">Staff Directory</h1>
 
             <!-- Search Bar -->
 
@@ -520,7 +526,7 @@
               </div>
 
               <div class="w-full flex justify-end">
-                <button type="button" class="py-2 px-2 w-1/4 text-sm font-medium text-white focus:outline-none bg-blue-700 rounded-2xl border-2 border-blue-200 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                <button type="button" class="py-2 px-2 w-1/4 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-500 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300">
                   <a href="staff-list.php">Show all Staffs</a>
                 </button>
               </div>
@@ -534,8 +540,8 @@
 
         </div>
     <!-- Vendors Section -->
-      <div class="container mx-auto p-6">
-      <!-- <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Vendors</h1> -->
+      <div class="container mx-auto p-2">
+      <h1 class="text-2xl font-bold text-gray-800 mb-4">Vendors</h1>
 
         <!-- Search Bar -->
 
@@ -557,7 +563,7 @@
               </div>
 
               <div class="w-full flex justify-end">
-                <button type="button" class="py-2 px-2 w-1/4 text-sm font-medium text-white focus:outline-none bg-blue-700 rounded-2xl border-2 border-blue-200 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                <button type="button" class="py-2 px-2 w-1/4 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-500 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300">
                   <a href="staff-list.php">Show all Vendors</a>
                 </button>
               </div>
