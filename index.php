@@ -470,7 +470,7 @@
 
             <!-- Search Bar -->
 
-            <div class="flex justify-between">
+            <div class="flex justify-between mb-5">
               <div class="w-full">
                   <div class="relative w-full max-w-md">
                       <input
@@ -508,7 +508,7 @@
 
             <!-- Search Bar -->
 
-            <div class="flex justify-between">
+            <div class="flex justify-between mb-5">
               <div class="w-full">
                   <div class="relative w-full max-w-md">
                       <input
@@ -541,11 +541,11 @@
         </div>
     <!-- Vendors Section -->
       <div class="container mx-auto p-2">
-      <h1 class="text-2xl font-bold text-gray-800 mb-4">Vendors</h1>
+          <h1 class="text-2xl font-bold text-gray-800 mb-4">Vendors</h1>
 
         <!-- Search Bar -->
 
-        <div class="flex justify-between">
+        <div class="flex justify-between mb-5">
               <div class="w-full">
                   <div class="relative w-full max-w-md">
                       <input
@@ -574,7 +574,7 @@
             <div id="result_vendor" class="bg-white shadow-lg rounded-lg overflow-hidden h-60">
                 <!-- Fetched data will load here -->
             </div>
-        </div>
+      </div>
 
     <!-- Project Templates -->
       <section class="mb-8">
