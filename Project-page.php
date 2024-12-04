@@ -3,9 +3,9 @@
 
 
     <!-- Title -->
-    <div class=" bg-white text-center py-8 text-4xl">
-        <h2> Achieving Sustainability Towards Healthcare Access (ASTHA)</h2>
-    </div>
+        <div class=" bg-white text-center py-8 text-4xl">
+            <h2> Achieving Sustainability Towards Healthcare Access (ASTHA)</h2>
+        </div>
 
     <!-- Main Content -->
 
@@ -258,16 +258,16 @@
                     </div>
             </section>
         <!-- Partners -->
-        <div class="flex flex-col items-center card bg-white p-4">
-            <h3 class="text-2xl font-semibold mb-6">Partners</h3>
-            <div class="flex flex-wrap justify-center gap-4">
-                <img src="img/unicef.png" alt="UNICEF" class="h-24 w-24 object-contain">
-                <img src="img/save the children.png" alt="Save the Children" class="h-24 w-24 object-contain">
+            <div class="flex flex-col items-center card bg-white p-4">
+                <h3 class="text-2xl font-semibold mb-6">Partners</h3>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <img src="img/unicef.png" alt="UNICEF" class="h-24 w-24 object-contain">
+                    <img src="img/save the children.png" alt="Save the Children" class="h-24 w-24 object-contain">
+                </div>
             </div>
-        </div>
 
     </div>
     
 
-<!-- Footer -->
+
 <?php require_once('footer.php') ?>

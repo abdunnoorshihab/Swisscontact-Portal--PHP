@@ -23,14 +23,13 @@
             align-items: center;
             justify-content: space-between;
             background-color: white;
-            /* Tailwind-like green */
-            padding: .5rem 2rem;
+            padding: 0.5rem 2rem;
             position: sticky;
             top: 0;
-            z-index: 10;
-            color: black;
-            box-shadow: 5px 5px 2px #d9d9e8;
+            z-index: 50; /* Increased for better layering */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
+
         .sidenav{
             display: flex;
             justify-content: space-between;
@@ -158,11 +157,11 @@
     </style>
 </head>
 
-<body class="bg-white font-sans antialiased flex flex-col h-screen">
+<body>
 
     <div class="topnav">
         <div class="sidenav">
-            <h1>SCBD Portal</h1>
+            <a href="index.php"><h1>SCBD Portal</h1></a>
             <div class="middlenav">
                 <div class="menu-items" id="menuItems">
                     <a href="index.php">Home</a>
@@ -182,13 +181,6 @@
                             <a href="#">IT Guidelines</a>
                         </div>
                     </div>
-                    <!-- <div class="dropdown">
-                        <a href="#" class="dropbtn">Gender Equality <i class="fas fa-caret-down"></i></a>
-                        <div class="dropdown-content">
-                            <a href="#">Policies</a>
-                            <a href="#">E-Learning Course</a>
-                        </div>
-                    </div> -->
                     <a href="photo_gallery.php">Photo Gallery</a>
                     <a href="staff-list.php">Staff List</a>
                     <a href="vendor-list.php">Vendor List</a>

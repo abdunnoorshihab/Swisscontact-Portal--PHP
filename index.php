@@ -459,53 +459,72 @@
       </section>
 
     <!-- Forms & Templates -->
-        <div class="container mx-auto p-6">
-            <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Forms & Templates</h1>
+        <div class="container mx-auto p-2">
+            <!-- <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Forms & Templates</h1> -->
 
             <!-- Search Bar -->
-            <div class="flex justify-center mb-6">
-                <div class="relative w-full max-w-md">
-                    <input
-                        id="search_text_forms" 
-                        type="text"
-                        class="w-full p-4 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        placeholder="Search for forms..."
-                    />
-                    <button class="absolute right-3 top-3 text-gray-600">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                        </svg>
-                    </button>
-                </div>
+
+            <div class="flex justify-between">
+              <div class="w-full">
+                  <div class="relative w-full max-w-md">
+                      <input
+                          id="search_text_forms" 
+                          type="text"
+                          class="w-full p-3 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          placeholder="Search for forms..."
+                      />
+                      <button class="absolute right-3 top-3 text-gray-600">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                          </svg>
+                      </button>
+                  </div>
+              </div>
+
+              <div class="w-full flex justify-end">
+                <button type="button" class="py-2 px-2 w-1/4 text-sm font-medium text-white focus:outline-none bg-blue-700 rounded-2xl border-2 border-blue-200 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                  <a href="staff-list.php">Show all Forms</a>
+                </button>
+              </div>
+
             </div>
+            
 
             <!-- Results Table -->
             <div id="result_forms" class="bg-white shadow-lg rounded-lg overflow-hidden h-60"> <!-- Changed ID -->
                 <!-- Fetched data will load here -->
             </div>
-            <button type="button" class="py-2.5 px-5 w-full text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border-2 border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-                <a href="staff-list.php">Show all Forms</a>
-            </button>
+
         </div>
     <!-- Staff Directory Section -->
         <div class="container mx-auto p-6">
-            <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Staff Directory</h1>
+            <!-- <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Staff Directory</h1> -->
 
             <!-- Search Bar -->
-            <div class="flex justify-center mb-6">
-                <div class="relative w-full max-w-md">
-                    <input
-                        id="search_text_staff" 
-                        type="text"
-                        class="w-full p-4 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        placeholder="Search for employees..."
-                    />
-                    <button class="absolute right-3 top-3 text-gray-600">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                        </svg>
-                    </button>
-                </div>
+
+            <div class="flex justify-between">
+              <div class="w-full">
+                  <div class="relative w-full max-w-md">
+                      <input
+                          id="search_text_staff" 
+                          type="text"
+                          class="w-full p-3 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          placeholder="Search for forms..."
+                      />
+                      <button class="absolute right-3 top-3 text-gray-600">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                          </svg>
+                      </button>
+                  </div>
+              </div>
+
+              <div class="w-full flex justify-end">
+                <button type="button" class="py-2 px-2 w-1/4 text-sm font-medium text-white focus:outline-none bg-blue-700 rounded-2xl border-2 border-blue-200 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                  <a href="staff-list.php">Show all Staffs</a>
+                </button>
+              </div>
+
             </div>
 
             <!-- Results Table -->
@@ -513,38 +532,42 @@
                 <!-- Fetched data will load here -->
             </div>
 
-            <button type="button" class="py-2.5 px-5 w-full text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border-2 border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-                <a href="staff-list.php">Show all Employees</a>
-            </button>
         </div>
     <!-- Vendors Section -->
       <div class="container mx-auto p-6">
-      <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Vendors</h1>
-      <!-- Search Bar -->
-        <div class="flex justify-center mb-6">
-                <div class="relative w-full max-w-md">
-                    <input
-                        id="search_text_vendor" 
-                        type="text"
-                        class="w-full p-4 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        placeholder="Search for vendors..."
-                    />
-                    <button class="absolute right-3 top-3 text-gray-600">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                        </svg>
-                    </button>
-                </div>
+      <!-- <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Vendors</h1> -->
+
+        <!-- Search Bar -->
+
+        <div class="flex justify-between">
+              <div class="w-full">
+                  <div class="relative w-full max-w-md">
+                      <input
+                          id="search_text_vendor" 
+                          type="text"
+                          class="w-full p-3 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          placeholder="Search for Vendors..."
+                      />
+                      <button class="absolute right-3 top-3 text-gray-600">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                          </svg>
+                      </button>
+                  </div>
+              </div>
+
+              <div class="w-full flex justify-end">
+                <button type="button" class="py-2 px-2 w-1/4 text-sm font-medium text-white focus:outline-none bg-blue-700 rounded-2xl border-2 border-blue-200 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                  <a href="staff-list.php">Show all Vendors</a>
+                </button>
+              </div>
+
             </div>
 
-      <!-- Results Table -->
+          <!-- Results Table -->
             <div id="result_vendor" class="bg-white shadow-lg rounded-lg overflow-hidden h-60">
                 <!-- Fetched data will load here -->
             </div>
-
-            <button type="button" class="py-2.5 px-5 w-full text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border-2 border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-                <a href="vendor-list.php">Show all Vendors</a>
-            </button>
         </div>
 
     <!-- Project Templates -->
