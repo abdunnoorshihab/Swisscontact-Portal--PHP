@@ -3,12 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header</title>
-</head>
-<body>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -164,7 +158,7 @@
     </style>
 </head>
 
-<body>
+<body class="bg-white font-sans antialiased flex flex-col h-screen">
 
     <div class="topnav">
         <div class="sidenav">
@@ -258,11 +252,3 @@
             <i class="fas fa-bars"></i>
         </div>
     </div>
-
-    <script>
-        function toggleMenu() {
-            document.getElementById("menuItems").classList.toggle("active");
-        }
-    </script>
-</body>
-</html>

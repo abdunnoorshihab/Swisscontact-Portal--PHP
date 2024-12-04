@@ -1,7 +1,6 @@
-
-<body class="bg-gray-100 font-sans antialiased flex flex-col h-screen">
-  <div class="md:container md:mx-auto">
-    <?php require_once('header.php') ?>
+<?php require_once('header.php') ?>
+  <div class="bg-gray-100 md:container md:mx-auto">
+   
 
     <!-- Main Content -->
       <main class="container mx-auto px-6 py-8">
@@ -457,51 +456,6 @@
                   <!-- <div style="pt-20;"class="swiper-pagination"></div> -->
               </div>
           </div>
-
-          <!-- Swiper JS -->
-          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-          <script>
-              // Initialize Swiper
-              var swiper = new Swiper('.mySwiper', {
-                  slidesPerView: 6,
-                  spaceBetween: 20,
-                  loop: true,
-                  navigation: {
-                      nextEl: '.swiper-button-next',
-                      prevEl: '.swiper-button-prev',
-                  },
-                  pagination: {
-                      el: '.swiper-pagination',
-                      clickable: true,
-                      dynamicBullets: true,
-                  },
-                  breakpoints: {
-                      0: {
-                          slidesPerView: 1,
-                      },
-                      150: {
-                          slidesPerView: 2,
-                      },
-                      300: {
-                          slidesPerView: 3,
-                      },
-                      450: {
-                          slidesPerView: 4,
-                      },
-                      600: {
-                          slidesPerView: 5,
-                      },
-                      750: {
-                          slidesPerView: 6,
-                      },
-                      1000: {
-                          slidesPerView: 7,
-                      },
-                  }
-              });
-          </script>
-
       </section>
 
     <!-- Forms & Templates -->
@@ -533,36 +487,6 @@
                 <a href="staff-list.php">Show all Forms</a>
             </button>
         </div>
-
-         <!-- JavaScript for AJAX Call -->
-        <script>
-          $(document).ready(function() {
-              // Load data initially (3 rows)
-              load_data();
-
-              // Function to load data
-              function load_data(query = '') {
-                  $.ajax({
-                      url: "fetch_forms.php",
-                      method: "POST",
-                      data: { query: query },
-                      success: function(data) {
-                          $('#result_forms').html(data); // Display fetched data
-                      },
-                      error: function() {
-                          $('#result_forms').html('<p class="p-4 text-red-500">Error fetching data.</p>');
-                      }
-                  });
-              }
-
-              // Event listener for search input
-              $('#search_text_forms').on('keyup', function() {
-                  var search = $(this).val();
-                  load_data(search); // Fetch filtered data
-              });
-          });
-        </script>
-
     <!-- Staff Directory Section -->
         <div class="container mx-auto p-6">
             <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Staff Directory</h1>
@@ -593,40 +517,9 @@
                 <a href="staff-list.php">Show all Employees</a>
             </button>
         </div>
-
-        <!-- JavaScript for AJAX Call (Staff Directory) -->
-      <script>
-        $(document).ready(function() {
-            // Load data initially (3 rows)
-            load_data();
-
-            // Function to load data
-            function load_data(query = '') {
-                $.ajax({
-                    url: "fetch_staff.php",  // Use your staff fetch endpoint
-                    method: "POST",
-                    data: { query: query },
-                    success: function(data) {
-                        $('#result_staff').html(data); // Display fetched data
-                    },
-                    error: function() {
-                        $('#result_staff').html('<p class="p-4 text-red-500">Error fetching data.</p>');
-                    }
-                });
-            }
-
-            // Event listener for search input
-            $('#search_text_staff').on('keyup', function() {
-                var search = $(this).val();
-                load_data(search); // Fetch filtered data
-            });
-        });
-      </script>
-
     <!-- Vendors Section -->
       <div class="container mx-auto p-6">
       <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">Vendors</h1>
-
       <!-- Search Bar -->
         <div class="flex justify-center mb-6">
                 <div class="relative w-full max-w-md">
@@ -644,7 +537,7 @@
                 </div>
             </div>
 
-            <!-- Results Table -->
+      <!-- Results Table -->
             <div id="result_vendor" class="bg-white shadow-lg rounded-lg overflow-hidden h-60">
                 <!-- Fetched data will load here -->
             </div>
@@ -654,61 +547,7 @@
             </button>
         </div>
 
-        <script>
-            document.getElementById('search_text_vendor').addEventListener('input', function() {
-                var searchQuery = this.value;
-                if (searchQuery.length >= 3 || searchQuery.length == 0) {
-                    fetchVendors(searchQuery);
-                }
-            });
-
-            function fetchVendors(search) {
-                var xhr = new XMLHttpRequest();
-                xhr.open('POST', 'fetch_vendors.php', true);
-                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-                xhr.onload = function() {
-                    if (xhr.status === 200) {
-                        document.getElementById('result_vendor').innerHTML = xhr.responseText;
-                    } else {
-                        document.getElementById('result_vendor').innerHTML = 'Error loading vendors';
-                    }
-                };
-                xhr.send('query=' + encodeURIComponent(search));
-            }
-        </script>
-
-
-          <!-- JavaScript for AJAX Call (Staff Directory) -->
-            <script>
-              $(document).ready(function() {
-                  // Load data initially (3 rows)
-                  load_data();
-
-                  // Function to load data
-                  function load_data(query = '') {
-                      $.ajax({
-                          url: "fetch_vendor.php",  // Use your staff fetch endpoint
-                          method: "POST",
-                          data: { query: query },
-                          success: function(data) {
-                              $('#result_vendor').html(data); // Display fetched data
-                          },
-                          error: function() {
-                              $('#result_vendor').html('<p class="p-4 text-red-500">Error fetching data.</p>');
-                          }
-                      });
-                  }
-
-                  // Event listener for search input
-                  $('#search_text_vendor').on('keyup', function() {
-                      var search = $(this).val();
-                      load_data(search); // Fetch filtered data
-                  });
-              });
-            </script>
-
     <!-- Project Templates -->
-
       <section class="mb-8">
         <h2 class="text-2xl font-semibold mb-4 mt-6">Project Templates</h2>
         <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-10 ">
@@ -805,9 +644,7 @@
            </div>  
         </div>
       </section>
-
     <!-- IT Tutorials -->
-
       <section id="tutorials" class="mb-8 w-full">
         <h2 class="text-2xl font-semibold mb-4">IT Tutorials</h2>
         <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
@@ -902,7 +739,6 @@
           </div>
         </ul>
       </section>
-
     <!-- Knowledge Sharing -->
       <section id="knowledge" class="mb-8">
         <h2 class="text-2xl font-semibold mb-4">Knowledge Sharing</h2>
@@ -943,12 +779,5 @@
           </div>
         </div>
       </section>
-
-      </main>
-
-    <!-- Footer -->
-
-    <?php require_once('footer.php') ?>
-
   </div>
-</body>
+<?php require_once('footer.php') ?>

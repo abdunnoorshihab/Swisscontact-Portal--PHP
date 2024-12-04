@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Blogging Website Layout</title>
-</head>
 <?php require_once('../header.php');?>
 
-<body class="font-sans">
+
     <header class="bg-white text-black text-center py-4">
         <h1 class="text-2xl font-bold">How to Use the New VPN</h1>
     </header>
@@ -83,10 +75,4 @@
             </ul>
         </aside>
     </div>
-</body>
-<special-footer></special-footer>
-<script src="../headerFooterManager.js"></script>
-
-</html>
-
 <?php require_once('../footer.php');?>
