@@ -584,7 +584,7 @@
                   <div class="swiper-wrapper">
                       <!-- Card 1 -->
                       <div class="swiper-slide rounded-full shadow-lg overflow-hidden">
-                          <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
+                          <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                               <div class="flex justify-center items-center h-1/2">
                                   <!-- Icon Placeholder -->
                                   <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
@@ -596,7 +596,7 @@
                           </a>
                       </div>
                       <div class="swiper-slide rounded-full shadow-lg overflow-hidden">
-                          <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
+                          <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                               <div class="flex justify-center items-center h-1/2">
                                   <!-- Icon Placeholder -->
                                   <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
@@ -608,7 +608,7 @@
                           </a>
                       </div>
                       <div class="swiper-slide rounded-full shadow-lg overflow-hidden">
-                          <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
+                          <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                               <div class="flex justify-center items-center h-1/2">
                                   <!-- Icon Placeholder -->
                                   <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
@@ -620,7 +620,7 @@
                           </a>
                       </div>
                       <div class="swiper-slide rounded-full shadow-lg overflow-hidden">
-                          <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
+                          <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                               <div class="flex justify-center items-center h-1/2">
                                   <!-- Icon Placeholder -->
                                   <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
@@ -632,7 +632,7 @@
                           </a>
                       </div>
                       <div class="swiper-slide rounded-full shadow-lg overflow-hidden">
-                          <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
+                          <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                               <div class="flex justify-center items-center h-1/2">
                                   <!-- Icon Placeholder -->
                                   <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
@@ -644,7 +644,7 @@
                           </a>
                       </div>
                       <div class="swiper-slide rounded-full shadow-lg overflow-hidden">
-                          <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
+                          <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                               <div class="flex justify-center items-center h-1/2">
                                   <!-- Icon Placeholder -->
                                   <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
@@ -656,7 +656,7 @@
                           </a>
                       </div>
                       <div class="swiper-slide rounded-full shadow-lg overflow-hidden">
-                          <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
+                          <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                               <div class="flex justify-center items-center h-1/2">
                                   <!-- Icon Placeholder -->
                                   <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
@@ -668,7 +668,7 @@
                           </a>
                       </div>
                       <div class="swiper-slide rounded-full shadow-lg overflow-hidden">
-                          <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
+                          <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                               <div class="flex justify-center items-center h-1/2">
                                   <!-- Icon Placeholder -->
                                   <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
@@ -680,7 +680,7 @@
                           </a>
                       </div>
                       <div class="swiper-slide rounded-full shadow-lg overflow-hidden">
-                          <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
+                          <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                               <div class="flex justify-center items-center h-1/2">
                                   <!-- Icon Placeholder -->
                                   <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
@@ -692,7 +692,7 @@
                           </a>
                       </div>
                       <div class="swiper-slide rounded-full shadow-lg overflow-hidden">
-                          <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
+                          <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                               <div class="flex justify-center items-center h-1/2">
                                   <!-- Icon Placeholder -->
                                   <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
@@ -704,7 +704,7 @@
                           </a>
                       </div>
                       <div class="swiper-slide rounded-full shadow-lg overflow-hidden">
-                          <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
+                          <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                               <div class="flex justify-center items-center h-1/2">
                                   <!-- Icon Placeholder -->
                                   <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
