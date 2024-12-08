@@ -25,11 +25,6 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-                dynamicBullets: true,
-            },
             breakpoints: {
                 0: {
                     slidesPerView: 1,
@@ -166,7 +161,7 @@
                   });
               });
     </script>
-  <!--staff list-->
+  <!--Project templates-->
   <!--staff list-->
   <!--staff list-->
     
