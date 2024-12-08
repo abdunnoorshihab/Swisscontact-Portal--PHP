@@ -647,12 +647,10 @@
                                         <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto rounded-full">
                                         <h3 class="text-sm font-semibold">Astha</h3>
                                     </div>
-
-                                    <!-- Repeat for the rest of your slides -->
-
+                            </div>
                                 <div class="swiper-button-next"></div>
                                 <div class="swiper-button-prev"></div>
-                            </div>
+                        
                         </div>
                     </div>
             </section>
