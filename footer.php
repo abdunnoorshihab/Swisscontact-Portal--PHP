@@ -11,6 +11,82 @@
           }
     </script>
 
+
+  <!-- Carousel -->
+            
+    <script>
+        const carousel = document.getElementById('carousel');
+        const next = document.getElementById('next');
+        const prev = document.getElementById('prev');
+        const pagination = document.getElementById('pagination');
+
+        let index = 0;
+        const totalSlides = carousel.children.length;
+
+        // Function to update carousel position
+        const updateCarousel = () => {
+        carousel.style.transform = `translateX(-${index * 100}%)`;
+        updatePagination();
+        };
+
+        // Function to update pagination dots
+        const updatePagination = () => {
+        Array.from(pagination.children).forEach((dot, dotIndex) => {
+            dot.classList.toggle('bg-gray-800', dotIndex === index);
+            dot.classList.toggle('bg-gray-400', dotIndex !== index);
+        });
+        };
+
+        // Automatically change slides every 3 seconds
+        let interval = setInterval(() => {
+        index = (index + 1) % totalSlides;
+        updateCarousel();
+        }, 3000);
+
+        // Navigate to next slide
+        next.addEventListener('click', () => {
+        clearInterval(interval); // Reset interval
+        index = (index + 1) % totalSlides;
+        updateCarousel();
+        interval = setInterval(() => {
+            index = (index + 1) % totalSlides;
+            updateCarousel();
+        }, 3000);
+        });
+
+        // Navigate to previous slide
+        prev.addEventListener('click', () => {
+        clearInterval(interval); // Reset interval
+        index = (index - 1 + totalSlides) % totalSlides;
+        updateCarousel();
+        interval = setInterval(() => {
+            index = (index + 1) % totalSlides;
+            updateCarousel();
+        }, 3000);
+        });
+
+        // Generate pagination dots
+        for (let i = 0; i < totalSlides; i++) {
+        const dot = document.createElement('div');
+        dot.classList.add('w-3', 'h-3', 'rounded-full', 'cursor-pointer', 'bg-gray-400');
+        dot.addEventListener('click', () => {
+            clearInterval(interval); // Reset interval
+            index = i;
+            updateCarousel();
+            interval = setInterval(() => {
+            index = (index + 1) % totalSlides;
+            updateCarousel();
+            }, 3000);
+        });
+        pagination.appendChild(dot);
+        }
+
+        // Initialize carousel and pagination
+        updateCarousel();
+
+
+    </script>
+
   <!-- Swiper JS -->
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
