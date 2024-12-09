@@ -473,9 +473,6 @@
                             </a>
                         </div>
 
-                        
-                        
-
                         <!-- Add more cards here -->
                     </div>
 
@@ -1005,15 +1002,15 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="bg-white p-6 rounded-lg shadow">
                 <h3 class="text-xl font-medium mb-2">Best Practices for Data Security</h3>
-                <a href="#" class="text-blue-500 hover:underline">Read Article</a>
+                <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
             </div>
             <div class="bg-white p-6 rounded-lg shadow">
                 <h3 class="text-xl font-medium mb-2">Effective IT Communication Strategies</h3>
-                <a href="#" class="text-blue-500 hover:underline">Read Article</a>
+                <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
             </div>
             <div class="bg-white p-6 rounded-lg shadow">
                 <h3 class="text-xl font-medium mb-2">Optimizing Your IT Infrastructure</h3>
-                <a href="#" class="text-blue-500 hover:underline">Read Article</a>
+                <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
             </div>
             </div>
         </section>
@@ -1024,18 +1021,18 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <!-- Guideline Card -->
           <div class="bg-white p-6 rounded-lg shadow">
-            <h3 class="text-xl font-medium mb-2"><a href="#">Policies</a></h3>
-            <p class="text-gray-600">Ensure all data is protected according to the company's data protection policies.<br><a href="#" class="text-blue-500 hover:underline">Read More</a>
+            <h3 class="text-xl font-medium mb-2"><a href="gender_equality.php">Policies</a></h3>
+            <p class="text-gray-600">Ensure all data is protected according to the company's data protection policies.<br><a href="gender_equality.php" class="text-blue-500 hover:underline">Read More</a>
             </p>
           </div>
           <div class="bg-white p-6 rounded-lg shadow">
             <h3 class="text-xl font-medium mb-2">E-Learning Course</h3>
-            <p class="text-gray-600">Only authorized personnel should have access to critical systems and information.<br><a href="#" class="text-blue-500 hover:underline">Read More</a>
+            <p class="text-gray-600">Only authorized personnel should have access to critical systems and information.<br><a href="gender_equality.php" class="text-blue-500 hover:underline">Read More</a>
             </p>
           </div>
           <div class="bg-white p-6 rounded-lg shadow">
             <h3 class="text-xl font-medium mb-2">Incident Reporting</h3>
-            <p class="text-gray-600">Report any incidents immediately to ensure swift resolution.<br><a href="#" class="text-blue-500 hover:underline">Read More</a></p>
+            <p class="text-gray-600">Report any incidents immediately to ensure swift resolution.<br><a href="gender_equality.php" class="text-blue-500 hover:underline">Read More</a></p>
           </div>
         </div>
       </section>
