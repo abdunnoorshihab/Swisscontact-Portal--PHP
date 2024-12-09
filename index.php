@@ -7,7 +7,7 @@
             
                 <div id="carousel" class="flex w-[500%] transition-transform duration-500">
                     <div class="w-full flex-shrink-0">
-                    <img class="w-full h-96 object-fill rounded-lg" src="img/banner2.png" alt="Slide 1">
+                    <img class="w-full h-96 object-fill rounded-lg" src="img/banner---11.jpeg" alt="Slide 1">
                     </div>
                     <div class="w-full flex-shrink-0">
                     <img class="w-full h-96 object-cover rounded-lg" src="img/banner2.png" alt="Slide 2">

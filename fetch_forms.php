@@ -21,7 +21,7 @@ $sql = "SELECT * FROM formsdb LIMIT 3";
 // Modify the query for search
 if ($search) {
     $sql = "SELECT * FROM formsdb 
-            -- WHERE Type LIKE '%$search%' 
+            WHERE Type LIKE '%$search%' 
             OR `Form Name` LIKE '%$search%' 
             OR Download LIKE '%$search%'";
 }
@@ -33,6 +33,7 @@ if ($result && $result->num_rows > 0) {
     echo '<table class="w-full text-left table-auto min-w-max">
             <thead>
                 <tr class="border-b border-gray-200 bg-gray-100">
+                    
                     <th class="p-4">Form Name</th>
                     <th class="p-4">Download</th>
                 </tr>

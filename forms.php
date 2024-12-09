@@ -39,7 +39,7 @@ $result = mysqli_query($conn, $sql);
                         <table id="forms-table" class="min-w-full text-sm text-left text-gray-500 dark:text-gray-400 border-separate border-spacing-0">
                             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 sticky top-0">
                                 <tr>
-                                    <th scope="col" class="px-6 py-3 border-b border-gray-300">Type</th>
+                                    
                                     <th scope="col" class="px-6 py-3 border-b border-gray-300">Form Name</th>
                                     <th scope="col" class="px-6 py-3 border-b border-gray-300">Download</th>
                                 </tr>
@@ -47,7 +47,7 @@ $result = mysqli_query($conn, $sql);
                             <tbody>
                                 <?php while ($rows = mysqli_fetch_array($result)) { ?>
                                     <tr class="hover:bg-gray-100 dark:hover:bg-gray-700 border-b form-row">
-                                        <td class="px-6 py-4"><?php echo htmlspecialchars($rows["Type"]); ?></td>
+                                       
                                         <td class="px-6 py-4"><?php echo htmlspecialchars($rows["Form Name"]); ?></td>
                                         <td class="px-6 py-4"><?php echo htmlspecialchars($rows["Download"]); ?></td>
                                     </tr>
