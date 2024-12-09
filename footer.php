@@ -87,7 +87,7 @@
 
     </script>
 
-  <!-- Swiper JS -->
+  <!-- Quick links -->
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -238,7 +238,45 @@
               });
     </script>
   <!--Project templates-->
-  <!--staff list-->
+  <!--IT Tutorials-->
+    <!--swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const myTutorialSwiper = new Swiper(".my-tutorial-swiper", {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    },
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 40,
+                    },
+                },
+            });
+        });
+    </script>
+
+
+
   <!--staff list-->
     
 
