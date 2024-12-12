@@ -607,11 +607,11 @@
         <!-- Project Templates -->
             <section class="mb-8">
                 <h2 class="text-2xl font-semibold mb-4 mt-6">Project Templates</h2>
-                <div class="container relative relative group w-full h-full mx-auto px-4">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
+                <div class="container relative relative group w-44 h-40 px-4">
+                    <div class="">
+                        <div class="">
                             <!-- Card 1 -->
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
+                            <div class="rounded-lg shadow-lg overflow-hidden">
                                 <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
                                         <!-- Icon Placeholder -->
@@ -626,18 +626,7 @@
 
                         </div>
 
-                        <!-- Swiper Navigation buttons -->
                         
-                            <!-- Swiper Button Next -->
-                            <div class="swiper-button-next text-black p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            
-                            <!-- Swiper Button Prev -->
-                            <div class="swiper-button-prev text-black p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                        
-
-
-                        <!-- Swiper Pagination -->
-                        <!-- <div style="pt-20;"class="swiper-pagination"></div> -->
                     </div>
                 </div>
             </section>
