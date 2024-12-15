@@ -55,20 +55,8 @@
                 <div class="container relative relative group w-full h-full mx-auto px-4">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
-                            <!-- Card 1 -->
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden w-64">
-                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition flex flex-col justify-between">
-                                    <div class="flex justify-center relative items-center full">
-                                        <!-- Icon Placeholder -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
-                                        </svg>
-                                    </div>
-                                    <div class="pb-2">
-                                        <h3 class="text-xs absulate text-center">Swisscontact Bangladesh</h3>
-                                    </div>
-                                </a>
-                            </div>
+                            <!-- Cards -->
+                            
                             <div class="swiper-slide rounded-lg shadow-lg overflow-hidden w-64 h-30">
                                 <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
@@ -79,6 +67,19 @@
                                     </div>
                                     <div class="p-3">
                                         <h3 class="text-xs text-center">IT Requisition</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden w-64">
+                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition flex flex-col justify-between">
+                                    <div class="flex justify-center relative items-center full">
+                                        <!-- Icon Placeholder -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
+                                        </svg>
+                                    </div>
+                                    <div class="pb-2">
+                                        <h3 class="text-xs absulate text-center">Swisscontact Bangladesh</h3>
                                     </div>
                                 </a>
                             </div>
@@ -216,257 +217,212 @@
                     </div>
                 </div>
             </section>
-
-        <!-- Forms & Templates -->
-            <div class="container mx-auto p-2">
-                <h1 class="text-2xl font-bold text-gray-800 mb-4">Forms & Templates</h1>
-
-                <!-- Search Bar -->
-
-                <div class="flex justify-between mb-5">
-                <div class="w-full">
-                    <div class="relative w-full max-w-md">
-                        <input
-                            id="search_text_forms" 
-                            type="text"
-                            class="w-full p-3 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            placeholder="Search for forms..."
-                        />
-                        <button class="absolute right-3 top-3 text-gray-600">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="w-full flex justify-end">
-                    <button type="button" class="py-2 px-2 w-1/4 text-sm font-semibold text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300">
-                    <a href="forms.php">Show all Forms</a>
-                    </button>
-                </div>
-
-                </div>
-                
-                <!-- Results Table -->
-                <div id="result_forms" class="bg-white shadow-lg rounded-lg overflow-hidden h-60"> <!-- Changed ID -->
-                    <!-- Fetched data will load here -->
-                </div>
-
-            </div>
-        <!-- Staff Directory Section -->
-            <div class="container mx-auto p-2">
-                <h1 class="text-2xl font-bold text-gray-800 mb-4">Staff Directory</h1>
-
-                <!-- Search Bar -->
-
-                <div class="flex justify-between mb-5">
-                <div class="w-full">
-                    <div class="relative w-full max-w-md">
-                        <input
-                            id="search_text_staff" 
-                            type="text"
-                            class="w-full p-3 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            placeholder="Search for forms..."
-                        />
-                        <button class="absolute right-3 top-3 text-gray-600">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="w-full flex justify-end">
-                    <button type="button" class="py-2 px-2 w-1/4 text-sm font-semibold text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300">
-                    <a href="staff-list.php">Show all Staffs</a>
-                    </button>
-                </div>
-
-                </div>
-
-                <!-- Results Table -->
-                <div id="result_staff" class="bg-white shadow-lg rounded-lg overflow-hidden h-60"> <!-- Changed ID -->
-                    <!-- Fetched data will load here -->
-                </div>
-
-            </div>
-        <!-- Vendors Section -->
-            <div class="container mx-auto p-2">
-                <h1 class="text-2xl font-bold text-gray-800 mb-4">Vendors</h1>
-
-                <!-- Search Bar -->
-
-                <div class="flex justify-between mb-5">
-                    <div class="w-full">
-                        <div class="relative w-full max-w-md">
-                            <input
-                                id="search_text_vendor" 
-                                type="text"
-                                class="w-full p-3 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                placeholder="Search for Vendors..."
-                            />
-                            <button class="absolute right-3 top-3 text-gray-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="w-full flex justify-end">
-                        <button type="button" class="py-2 px-2 w-1/4 text-sm font-semibold text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300">
-                        <a href="staff-list.php">Show all Vendors</a>
-                        </button>
-                    </div>
-
-                    </div>
-
-                <!-- Results Table -->
-                    <div id="result_vendor" class="bg-white shadow-lg rounded-lg overflow-hidden h-60">
-                        <!-- Fetched data will load here -->
-                    </div>
-            </div>
-
         <!-- Project Templates -->
             <section class="mb-8">
                 <h2 class="text-2xl font-semibold mb-4 mt-6">Project Templates</h2>
                 <div class="container relative relative group w-full h-full mx-auto px-4">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
-                            <!-- Card 1 -->
+                            <!-- Card  -->
                             <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
-
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
+                                    >
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                        <!-- Logo/Image Placeholder -->
+                                        <img 
+                                        src="img/astha.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                        >
                                     </div>
-                                    <div class="">
-                                        <h3 class="text-xs text-center">Astha</h3>
+                                    <div class="text-center">
+                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <img src="img/byets.png" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
-
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
+                                    >
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                        <!-- Logo/Image Placeholder -->
+                                        <img 
+                                        src="img/astha.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                        >
                                     </div>
-                                    <div class="">
-                                        <h3 class="text-xs text-center">BYETS</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <img src="img/M4c logo.jpg" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
-
-                                    </div>
-                                    <div class="">
-                                        <h3 class="text-xs text-center">M4C</h3>
+                                    <div class="text-center">
+                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <img src="img/probriddhi.png" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
-
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
+                                    >
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                        <!-- Logo/Image Placeholder -->
+                                        <img 
+                                        src="img/astha.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                        >
                                     </div>
-                                    <div class="">
-                                        <h3 class="text-xs text-center">PRABRIDDHI</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <img src="img/sarathi.jpg" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
-
-                                    </div>
-                                    <div class="">
-                                        <h3 class="text-xs text-center">SARATHI</h3>
+                                    <div class="text-center">
+                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <img src="img/uttoron.jpg" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
-
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
+                                    >
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                        <!-- Logo/Image Placeholder -->
+                                        <img 
+                                        src="img/astha.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                        >
                                     </div>
-                                    <div class="">
-                                        <h3 class="text-xs text-center">UTTORON</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <img src="img/bmmdp.png" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
-
-                                    </div>
-                                    <div class="">
-                                        <h3 class="text-xs text-center">BMMDP</h3>
+                                    <div class="text-center">
+                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <img src="img/probriddhi.png" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
-
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
+                                    >
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                        <!-- Logo/Image Placeholder -->
+                                        <img 
+                                        src="img/astha.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                        >
                                     </div>
-                                    <div class="">
-                                        <h3 class="text-xs text-center">PRABRIDDHI</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <img src="img/sarathi.jpg" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
-
-                                    </div>
-                                    <div class="">
-                                        <h3 class="text-xs text-center">SARATHI</h3>
+                                    <div class="text-center">
+                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <img src="img/uttoron.jpg" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
-
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
+                                    >
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                        <!-- Logo/Image Placeholder -->
+                                        <img 
+                                        src="img/astha.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                        >
                                     </div>
-                                    <div class="">
-                                        <h3 class="text-xs text-center">UTTORON</h3>
+                                    <div class="text-center">
+                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
                                     </div>
                                 </a>
                             </div>
                             <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <img src="img/bmmdp.png" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
-
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
+                                    >
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                        <!-- Logo/Image Placeholder -->
+                                        <img 
+                                        src="img/astha.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                        >
                                     </div>
-                                    <div class="">
-                                        <h3 class="text-xs text-center">BMMDP</h3>
+                                    <div class="text-center">
+                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
                                     </div>
                                 </a>
                             </div>
+                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
+                                    >
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                        <!-- Logo/Image Placeholder -->
+                                        <img 
+                                        src="img/astha.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                        >
+                                    </div>
+                                    <div class="text-center">
+                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
+                                    >
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                        <!-- Logo/Image Placeholder -->
+                                        <img 
+                                        src="img/astha.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                        >
+                                    </div>
+                                    <div class="text-center">
+                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
+                                    >
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                        <!-- Logo/Image Placeholder -->
+                                        <img 
+                                        src="img/astha.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                        >
+                                    </div>
+                                    <div class="text-center">
+                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
+                                    >
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                        <!-- Logo/Image Placeholder -->
+                                        <img 
+                                        src="img/astha.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                        >
+                                    </div>
+                                    <div class="text-center">
+                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            
                             
                         </div>
 
@@ -486,9 +442,8 @@
                 </div>
             </section>
         <!-- Events -->
-           
-            <section id="tutorials" class="mb-8 w-full">
-                <h2 class="text-2xl font-semibold mb-4">Events</h2>
+            <h2 class="text-2xl font-semibold mb-4">Events</h2>
+            <section id="tutorials" class="mb-8 px-4 w-full">
                 <div class="swiper my-tutorial-swiper">
                     <div class="swiper-wrapper">
                         <!-- Slide 1 -->
@@ -690,8 +645,9 @@
             </section>
 
         <!-- Knowledge Sharing -->
-            <section id="knowledge" class="mb-8">
-                <h2 class="text-2xl font-semibold mb-4">Knowledge Sharing</h2>
+            <h2 class="text-2xl font-semibold mb-4">Knowledge Sharing</h2>
+            <section id="knowledge" class="mb-8 px-4">
+                
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="bg-white p-6 rounded-lg shadow">
                     <h3 class="text-xl font-medium mb-2">Best Practices for Data Security</h3>
@@ -709,8 +665,10 @@
             </section>
 
         <!-- Gender Equality -->
-            <section id="guidelines" class="mb-8">
-                <h2 class="text-2xl font-semibold mb-4">Gender Equality</h2>
+        
+            <h2 class="text-2xl font-semibold mb-4">Gender Equality</h2>
+            <section id="guidelines" class="mb-8 px-4">
+                
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <!-- Guideline Card -->
                 <div class="bg-white p-6 rounded-lg shadow">
@@ -729,5 +687,17 @@
                 </div>
                 </div>
             </section>
-  </div>
+
+        <!-- Guest Register -->
+                <div class="GScontainer">
+                    <a href="#" class="button type--C">
+                        <div class="button__line"></div>
+                        <div class="button__line"></div>
+                        <span class="button__text">Guest Register</span>
+                        <div class="button__drow1"></div>
+                        <div class="button__drow2"></div>
+                    </a>
+                </div>
+
+
 <?php require_once('footer.php') ?>
