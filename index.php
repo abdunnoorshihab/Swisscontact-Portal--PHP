@@ -339,7 +339,7 @@
                                 <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
                                         <!-- Icon Placeholder -->
-                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
+                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
 
                                     </div>
                                     <div class="">
@@ -351,11 +351,11 @@
                                 <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
                                         <!-- Icon Placeholder -->
-                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
+                                        <img src="img/byets.png" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
 
                                     </div>
                                     <div class="">
-                                        <h3 class="text-xs text-center">Astha</h3>
+                                        <h3 class="text-xs text-center">BYETS</h3>
                                     </div>
                                 </a>
                             </div>
@@ -363,11 +363,11 @@
                                 <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
                                         <!-- Icon Placeholder -->
-                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
+                                        <img src="img/M4c logo.jpg" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
 
                                     </div>
                                     <div class="">
-                                        <h3 class="text-xs text-center">Astha</h3>
+                                        <h3 class="text-xs text-center">M4C</h3>
                                     </div>
                                 </a>
                             </div>
@@ -375,11 +375,11 @@
                                 <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
                                         <!-- Icon Placeholder -->
-                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
+                                        <img src="img/probriddhi.png" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
 
                                     </div>
                                     <div class="">
-                                        <h3 class="text-xs text-center">Astha</h3>
+                                        <h3 class="text-xs text-center">PRABRIDDHI</h3>
                                     </div>
                                 </a>
                             </div>
@@ -387,11 +387,11 @@
                                 <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
                                         <!-- Icon Placeholder -->
-                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
+                                        <img src="img/sarathi.jpg" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
 
                                     </div>
                                     <div class="">
-                                        <h3 class="text-xs text-center">Astha</h3>
+                                        <h3 class="text-xs text-center">SARATHI</h3>
                                     </div>
                                 </a>
                             </div>
@@ -399,11 +399,11 @@
                                 <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
                                         <!-- Icon Placeholder -->
-                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
+                                        <img src="img/uttoron.jpg" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
 
                                     </div>
                                     <div class="">
-                                        <h3 class="text-xs text-center">Astha</h3>
+                                        <h3 class="text-xs text-center">UTTORON</h3>
                                     </div>
                                 </a>
                             </div>
@@ -411,11 +411,11 @@
                                 <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
                                         <!-- Icon Placeholder -->
-                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
+                                        <img src="img/bmmdp.png" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
 
                                     </div>
                                     <div class="">
-                                        <h3 class="text-xs text-center">Astha</h3>
+                                        <h3 class="text-xs text-center">BMMDP</h3>
                                     </div>
                                 </a>
                             </div>
@@ -423,11 +423,11 @@
                                 <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
                                         <!-- Icon Placeholder -->
-                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
+                                        <img src="img/probriddhi.png" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
 
                                     </div>
                                     <div class="">
-                                        <h3 class="text-xs text-center">Astha</h3>
+                                        <h3 class="text-xs text-center">PRABRIDDHI</h3>
                                     </div>
                                 </a>
                             </div>
@@ -435,11 +435,11 @@
                                 <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
                                         <!-- Icon Placeholder -->
-                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
+                                        <img src="img/sarathi.jpg" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
 
                                     </div>
                                     <div class="">
-                                        <h3 class="text-xs text-center">Astha</h3>
+                                        <h3 class="text-xs text-center">SARATHI</h3>
                                     </div>
                                 </a>
                             </div>
@@ -447,11 +447,11 @@
                                 <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
                                         <!-- Icon Placeholder -->
-                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
+                                        <img src="img/uttoron.jpg" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
 
                                     </div>
                                     <div class="">
-                                        <h3 class="text-xs text-center">Astha</h3>
+                                        <h3 class="text-xs text-center">UTTORON</h3>
                                     </div>
                                 </a>
                             </div>
@@ -459,18 +459,15 @@
                                 <a href="Project-page.php" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
                                     <div class="flex justify-center items-center h-1/2">
                                         <!-- Icon Placeholder -->
-                                        <img src="img/astha.png" alt="Placeholder Image" class="w-24 h-24 object-cover flex m-auto">
+                                        <img src="img/bmmdp.png" alt="Placeholder Image" class="w-24 h-24 object-fill flex m-auto">
 
                                     </div>
                                     <div class="">
-                                        <h3 class="text-xs text-center">Astha</h3>
+                                        <h3 class="text-xs text-center">BMMDP</h3>
                                     </div>
                                 </a>
                             </div>
                             
-                            
-
-                            <!-- Add more cards here -->
                         </div>
 
                         <!-- Swiper Navigation buttons -->
@@ -497,23 +494,20 @@
                         <!-- Slide 1 -->
                         <div class="swiper-slide">
                             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="IT-Tutorials/card1.php">
-                                    <img class="rounded-t-lg h-48 w-full" src="img/VPN.png" alt="" />
+                                <a href="event1.php">
+                                    <img class="rounded-t-lg h-48 w-full" src="img/event1.jpg" alt="Event 1" />
                                 </a>
                                 <div class="p-5">
-                                    <a href="IT-Tutorials/card1.php" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        How to Use the New VPN
+                                    <a href="event1.php">
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tech Conference 2024</h5>
                                     </a>
-                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-                                    </p>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Join industry leaders as they discuss the latest trends in technology and innovation.</p>
                                     <a href="IT-Tutorials/card1.php"
                                         class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 gap-2">
-                                        Read more
-                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                        </svg>
+                                    Read more
+                                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -521,47 +515,41 @@
                         <!-- Slide 2 -->
                         <div class="swiper-slide">
                             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="IT-Tutorials/card1.php">
-                                    <img class="rounded-t-lg h-48 w-full" src="img/troubleshooting.jpg" alt="" />
+                                <a href="event1.php">
+                                    <img class="rounded-t-lg h-48 w-full" src="img/event1.jpg" alt="Event 1" />
                                 </a>
                                 <div class="p-5">
-                                    <a href="IT-Tutorials/card1.php" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        How to Use the New VPN
+                                    <a href="event1.php">
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">AI & Machine Learning Summit</h5>
                                     </a>
-                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-                                    </p>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Explore the future of AI and how machine learning is revolutionizing industries.</p>
                                     <a href="IT-Tutorials/card1.php"
                                         class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 gap-2">
-                                        Read more
-                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                        </svg>
+                                    Read more
+                                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <!-- Slide 3 -->
                         <div class="swiper-slide">
-                            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="IT-Tutorials/card1.php">
-                                    <img class="rounded-t-lg h-48 w-full" src="img/VPN.png" alt="" />
+                             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                <a href="event1.php">
+                                    <img class="rounded-t-lg h-48 w-full" src="img/event1.jpg" alt="Event 1" />
                                 </a>
                                 <div class="p-5">
-                                    <a href="IT-Tutorials/card1.php" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        How to Use the New VPN
+                                    <a href="event1.php">
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cybersecurity Expo</h5>
                                     </a>
-                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-                                    </p>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Learn about the latest cybersecurity threats and how to protect your data.</p>
                                     <a href="IT-Tutorials/card1.php"
                                         class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 gap-2">
-                                        Read more
-                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                        </svg>
+                                    Read more
+                                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -569,23 +557,20 @@
                         <!-- Slide 4 -->
                         <div class="swiper-slide">
                             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="IT-Tutorials/card1.php">
-                                    <img class="rounded-t-lg h-48 w-full" src="img/setting-up-emails-picture.jpg" alt="" />
+                                <a href="event1.php">
+                                    <img class="rounded-t-lg h-48 w-full" src="img/event1.jpg" alt="Event 1" />
                                 </a>
                                 <div class="p-5">
-                                    <a href="IT-Tutorials/card1.php" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        How to Use the New VPN
+                                    <a href="event1.php">
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cloud Computing Webinar</h5>
                                     </a>
-                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-                                    </p>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden">Join experts as they share insights on how cloud computing is transforming businesses.</p>
                                     <a href="IT-Tutorials/card1.php"
                                         class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 gap-2">
-                                        Read more
-                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                        </svg>
+                                    Read more
+                                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -593,23 +578,20 @@
                         <!-- Slide 5 -->
                         <div class="swiper-slide">
                             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="IT-Tutorials/card1.php">
-                                    <img class="rounded-t-lg h-48 w-full" src="img/VPN.png" alt="" />
+                                <a href="event1.php">
+                                    <img class="rounded-t-lg h-48 w-full" src="img/event1.jpg" alt="Event 1" />
                                 </a>
                                 <div class="p-5">
-                                    <a href="IT-Tutorials/card1.php" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        How to Use the New VPN
+                                    <a href="event1.php">
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tech Conference 2024</h5>
                                     </a>
-                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-                                    </p>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Join industry leaders as they discuss the latest trends in technology and innovation.</p>
                                     <a href="IT-Tutorials/card1.php"
                                         class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 gap-2">
-                                        Read more
-                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                        </svg>
+                                    Read more
+                                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -617,23 +599,20 @@
                         <!-- Slide 6 -->
                         <div class="swiper-slide">
                             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="IT-Tutorials/card1.php">
-                                    <img class="rounded-t-lg h-48 w-full" src="img/VPN.png" alt="" />
+                                <a href="event1.php">
+                                    <img class="rounded-t-lg h-48 w-full" src="img/event1.jpg" alt="Event 1" />
                                 </a>
                                 <div class="p-5">
-                                    <a href="IT-Tutorials/card1.php" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        How to Use the New VPN
+                                    <a href="event1.php">
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tech Conference 2024</h5>
                                     </a>
-                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-                                    </p>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Join industry leaders as they discuss the latest trends in technology and innovation.</p>
                                     <a href="IT-Tutorials/card1.php"
                                         class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 gap-2">
-                                        Read more
-                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                        </svg>
+                                    Read more
+                                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -641,23 +620,20 @@
                         <!-- Slide 7 -->
                         <div class="swiper-slide">
                             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="IT-Tutorials/card1.php">
-                                    <img class="rounded-t-lg h-48 w-full" src="img/VPN.png" alt="" />
+                                <a href="event1.php">
+                                    <img class="rounded-t-lg h-48 w-full" src="img/event1.jpg" alt="Event 1" />
                                 </a>
                                 <div class="p-5">
-                                    <a href="IT-Tutorials/card1.php" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        How to Use the New VPN
+                                    <a href="event1.php">
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tech Conference 2024</h5>
                                     </a>
-                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-                                    </p>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Join industry leaders as they discuss the latest trends in technology and innovation.</p>
                                     <a href="IT-Tutorials/card1.php"
                                         class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 gap-2">
-                                        Read more
-                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                        </svg>
+                                    Read more
+                                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -665,23 +641,20 @@
                         <!-- Slide 8 -->
                         <div class="swiper-slide">
                             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="IT-Tutorials/card1.php">
-                                    <img class="rounded-t-lg h-48 w-full" src="img/VPN.png" alt="" />
+                                <a href="event1.php">
+                                    <img class="rounded-t-lg h-48 w-full" src="img/event1.jpg" alt="Event 1" />
                                 </a>
                                 <div class="p-5">
-                                    <a href="IT-Tutorials/card1.php" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        How to Use the New VPN
+                                    <a href="event1.php">
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tech Conference 2024</h5>
                                     </a>
-                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-                                    </p>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Join industry leaders as they discuss the latest trends in technology and innovation.</p>
                                     <a href="IT-Tutorials/card1.php"
                                         class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 gap-2">
-                                        Read more
-                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                        </svg>
+                                    Read more
+                                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
@@ -689,28 +662,24 @@
                         <!-- Slide 9 -->
                         <div class="swiper-slide">
                             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="IT-Tutorials/card1.php">
-                                    <img class="rounded-t-lg h-48 w-full" src="img/VPN.png" alt="" />
+                                <a href="event1.php">
+                                    <img class="rounded-t-lg h-48 w-full" src="img/event1.jpg" alt="Event 1" />
                                 </a>
                                 <div class="p-5">
-                                    <a href="IT-Tutorials/card1.php" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        How to Use the New VPN
+                                    <a href="event1.php">
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tech Conference 2024</h5>
                                     </a>
-                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-                                    </p>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Join industry leaders as they discuss the latest trends in technology and innovation.</p>
                                     <a href="IT-Tutorials/card1.php"
                                         class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 gap-2">
-                                        Read more
-                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                        </svg>
+                                    Read more
+                                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                    </svg>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <!-- Repeat similar slides for card2, card3, card4 -->
                     </div>
                     <!-- Add Swiper navigation buttons -->
                     <div class="swiper-button-next"></div>
@@ -733,7 +702,7 @@
                     <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-medium mb-2">Optimizing Your IT Infrastructure</h3>
+                    <a href="knowledge_sharing.php"><h3 class="text-xl font-medium mb-2">Optimizing Your IT Infrastructure</h3></a>
                     <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
                 </div>
                 </div>

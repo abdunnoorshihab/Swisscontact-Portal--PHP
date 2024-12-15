@@ -6,14 +6,14 @@ body, h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
 }
 .w3-content {
-  max-width: 100%; /* Remove fixed width for full width */
+  max-width: 100%; 
 }
 </style>
 </head>
 <body class="w3-light-grey">
 
 <!-- Content Wrapper -->
-<div class="w3-content" style="width: 100%;"> <!-- Full width -->
+<div class="w3-content" style="width: 100%;"> 
 
   <!-- Header -->
   <header class="w3-container w3-center w3-padding-32"> 
@@ -24,7 +24,7 @@ body, h1, h2, h3, h4, h5 {
   <div class="w-full">
 
     <!-- Blog entries -->
-    <div class="w3-col l12 s12"> <!-- Make it full width -->
+    <div class="w3-col l12 s12"> 
       <!-- Blog entry -->
       <div class="w3-card-4 w3-margin w3-white">
         <img src="https://www.matc.edu/course-catalog/stem/it-computer-support-specialist_aas_procard_2016-17_107946.png" alt="Nature" style="width: 100%;"> <!-- Full width -->
