@@ -189,7 +189,7 @@
                             <!-- Card  -->
                             <div class="swiper-slide bg-white p-4 rounded-lg shadow-sm hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
                                 <a 
-                                    href="#" 
+                                    href="Project-page.php" 
                                     class="">
                                     <div class="flex justify-center items-center h-2/3 mb-2">
                                     <!-- Logo/Image Placeholder -->
