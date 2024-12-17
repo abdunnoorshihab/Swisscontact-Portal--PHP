@@ -57,7 +57,7 @@
                         <div class="swiper-wrapper">
                             <!-- Cards -->
                             
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
+                            <div class="swiper-slide rounded-lg overflow-hidden">
                                 <a 
                                     href="#" 
                                     class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full">
@@ -71,22 +71,112 @@
                                         </div>
                                 </a>
                             </div>
-                            
-                            
+                            <div class="swiper-slide rounded-lg overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full">
+                
+                                    <!-- Logo/Image Placeholder -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
+                                        </svg>
+                                        <div class="p-3">
+                                            <h3 class="text-xs text-center">IT Requisition</h3>
+                                        </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide rounded-lg overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full">
+                
+                                    <!-- Logo/Image Placeholder -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
+                                        </svg>
+                                        <div class="p-3">
+                                            <h3 class="text-xs text-center">IT Requisition</h3>
+                                        </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide rounded-lg overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full">
+                
+                                    <!-- Logo/Image Placeholder -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
+                                        </svg>
+                                        <div class="p-3">
+                                            <h3 class="text-xs text-center">IT Requisition</h3>
+                                        </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide rounded-lg overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full">
+                
+                                    <!-- Logo/Image Placeholder -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
+                                        </svg>
+                                        <div class="p-3">
+                                            <h3 class="text-xs text-center">IT Requisition</h3>
+                                        </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide rounded-lg overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full">
+                
+                                    <!-- Logo/Image Placeholder -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
+                                        </svg>
+                                        <div class="p-3">
+                                            <h3 class="text-xs text-center">IT Requisition</h3>
+                                        </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide rounded-lg overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full">
+                
+                                    <!-- Logo/Image Placeholder -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
+                                        </svg>
+                                        <div class="p-3">
+                                            <h3 class="text-xs text-center">IT Requisition</h3>
+                                        </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide rounded-lg overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full">
+                
+                                    <!-- Logo/Image Placeholder -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
+                                        </svg>
+                                        <div class="p-3">
+                                            <h3 class="text-xs text-center">IT Requisition</h3>
+                                        </div>
+                                </a>
+                            </div>
+                             
                         </div>
 
                         <!-- Swiper Navigation buttons -->
-                        
-                            <!-- Swiper Button Next -->
-                            <div class="swiper-button-next text-black p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            
-                            <!-- Swiper Button Prev -->
+                     
+                            <div class="swiper-button-next text-black p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div> 
                             <div class="swiper-button-prev text-black p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         
-
-
-                        <!-- Swiper Pagination -->
-                        <!-- <div style="pt-20;"class="swiper-pagination"></div> -->
                     </div>
                 </div>
             </section>
@@ -97,10 +187,10 @@
                     <div class="swiper mySwiper1">
                         <div class="swiper-wrapper">
                             <!-- Card  -->
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
+                            <div class="swiper-slide bg-white p-4 rounded-lg shadow-sm hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
                                 <a 
                                     href="#" 
-                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full">
+                                    class="">
                                     <div class="flex justify-center items-center h-2/3 mb-2">
                                     <!-- Logo/Image Placeholder -->
                                     <img 
@@ -114,7 +204,108 @@
                                     </div>
                                 </a>
                             </div>
-                            
+                            <div class="swiper-slide bg-white p-4 rounded-lg shadow-sm hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="">
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                    <!-- Logo/Image Placeholder -->
+                                    <img 
+                                        src="img/bmmdp.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                    >
+                                    </div>
+                                    <div class="text-center">
+                                    <h3 class="text-sm font-medium text-gray-800 truncate">BMMDB</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide bg-white p-4 rounded-lg shadow-sm hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="">
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                    <!-- Logo/Image Placeholder -->
+                                    <img 
+                                        src="img/bmmdp.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                    >
+                                    </div>
+                                    <div class="text-center">
+                                    <h3 class="text-sm font-medium text-gray-800 truncate">BMMDB</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide bg-white p-4 rounded-lg shadow-sm hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="">
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                    <!-- Logo/Image Placeholder -->
+                                    <img 
+                                        src="img/bmmdp.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                    >
+                                    </div>
+                                    <div class="text-center">
+                                    <h3 class="text-sm font-medium text-gray-800 truncate">BMMDB</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide bg-white p-4 rounded-lg shadow-sm hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="">
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                    <!-- Logo/Image Placeholder -->
+                                    <img 
+                                        src="img/bmmdp.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                    >
+                                    </div>
+                                    <div class="text-center">
+                                    <h3 class="text-sm font-medium text-gray-800 truncate">BMMDB</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide bg-white p-4 rounded-lg shadow-sm hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="">
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                    <!-- Logo/Image Placeholder -->
+                                    <img 
+                                        src="img/bmmdp.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                    >
+                                    </div>
+                                    <div class="text-center">
+                                    <h3 class="text-sm font-medium text-gray-800 truncate">BMMDB</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide bg-white p-4 rounded-lg shadow-sm hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="">
+                                    <div class="flex justify-center items-center h-2/3 mb-2">
+                                    <!-- Logo/Image Placeholder -->
+                                    <img 
+                                        src="img/bmmdp.png" 
+                                        alt="Project Logo" 
+                                        class="w-40 h-16 object-contain"
+                                    >
+                                    </div>
+                                    <div class="text-center">
+                                    <h3 class="text-sm font-medium text-gray-800 truncate">BMMDB</h3>
+                                    </div>
+                                </a>
+                            </div>
                             
                         </div>
 
