@@ -128,115 +128,14 @@
     </script>
 
   <!-- Forms & Templates JS -->
-    <script>
-          $(document).ready(function() {
-              // Load data initially (3 rows)
-              load_data();
-
-              // Function to load data
-              function load_data(query = '') {
-                  $.ajax({
-                      url: "fetch_forms.php",
-                      method: "POST",
-                      data: { query: query },
-                      success: function(data) {
-                          $('#result_forms').html(data); // Display fetched data
-                      },
-                      error: function() {
-                          $('#result_forms').html('<p class="p-4 text-red-500">Error fetching data.</p>');
-                      }
-                  });
-              }
-
-              // Event listener for search input
-              $('#search_text_forms').on('keyup', function() {
-                  var search = $(this).val();
-                  load_data(search); // Fetch filtered data
-              });
-          });
-    </script>
+ 
 
     
   <!-- Staff Directory js -->
-    <script>
-        $(document).ready(function() {
-            // Load data initially (3 rows)
-            load_data();
 
-            // Function to load data
-            function load_data(query = '') {
-                $.ajax({
-                    url: "fetch_staff.php",  // Use your staff fetch endpoint
-                    method: "POST",
-                    data: { query: query },
-                    success: function(data) {
-                        $('#result_staff').html(data); // Display fetched data
-                    },
-                    error: function() {
-                        $('#result_staff').html('<p class="p-4 text-red-500">Error fetching data.</p>');
-                    }
-                });
-            }
-
-            // Event listener for search input
-            $('#search_text_staff').on('keyup', function() {
-                var search = $(this).val();
-                load_data(search); // Fetch filtered data
-            });
-        });
-    </script>
 
   <!--vendors js -->
-    <script>
-            document.getElementById('search_text_vendor').addEventListener('input', function() {
-                var searchQuery = this.value;
-                if (searchQuery.length >= 3 || searchQuery.length == 0) {
-                    fetchVendors(searchQuery);
-                }
-            });
-
-            function fetchVendors(search) {
-                var xhr = new XMLHttpRequest();
-                xhr.open('POST', 'fetch_vendors.php', true);
-                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-                xhr.onload = function() {
-                    if (xhr.status === 200) {
-                        document.getElementById('result_vendor').innerHTML = xhr.responseText;
-                    } else {
-                        document.getElementById('result_vendor').innerHTML = 'Error loading vendors';
-                    }
-                };
-                xhr.send('query=' + encodeURIComponent(search));
-            }
-    </script>
-    <!-- JavaScript for AJAX Call (Staff Directory) -->
-    <script>
-              $(document).ready(function() {
-                  // Load data initially (3 rows)
-                  load_data();
-
-                  // Function to load data
-                  function load_data(query = '') {
-                      $.ajax({
-                          url: "fetch_vendor.php",  // Use your staff fetch endpoint
-                          method: "POST",
-                          data: { query: query },
-                          success: function(data) {
-                              $('#result_vendor').html(data); // Display fetched data
-                          },
-                          error: function() {
-                              $('#result_vendor').html('<p class="p-4 text-red-500">Error fetching data.</p>');
-                          }
-                      });
-                  }
-
-                  // Event listener for search input
-                  $('#search_text_vendor').on('keyup', function() {
-                      var search = $(this).val();
-                      load_data(search); // Fetch filtered data
-                  });
-              });
-    </script>
+ 
   <!--Project templates-->
 
     <script>
@@ -311,7 +210,7 @@
 
 
 
-  <!--staff list-->
+
     
 
 
