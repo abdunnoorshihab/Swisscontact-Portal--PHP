@@ -238,6 +238,39 @@
               });
     </script>
   <!--Project templates-->
+
+    <script>
+        // Initialize Swiper
+        var swiper = new Swiper('.mySwiper1', {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                150: {
+                    slidesPerView: 2,
+                },
+                300: {
+                    slidesPerView: 3,
+                },
+                450: {
+                    slidesPerView: 4,
+                },
+                600: {
+                    slidesPerView: 5,
+                },
+                800: {
+                    slidesPerView: 6,
+                },
+            }
+        });
+    </script>
   <!--IT Tutorials-->
     <!--swiper-->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -249,6 +282,7 @@
             const myTutorialSwiper = new Swiper(".my-tutorial-swiper", {
                 slidesPerView: 1,
                 spaceBetween: 20,
+                loop: true,
                 navigation: {
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",

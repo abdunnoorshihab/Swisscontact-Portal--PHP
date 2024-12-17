@@ -57,149 +57,22 @@
                         <div class="swiper-wrapper">
                             <!-- Cards -->
                             
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden w-64 h-30">
-                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
+                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
+                                <a 
+                                    href="#" 
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full">
+                
+                                    <!-- Logo/Image Placeholder -->
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
                                         </svg>
-                                    </div>
-                                    <div class="p-3">
-                                        <h3 class="text-xs text-center">IT Requisition</h3>
-                                    </div>
+                                        <div class="p-3">
+                                            <h3 class="text-xs text-center">IT Requisition</h3>
+                                        </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden w-64">
-                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition flex flex-col justify-between">
-                                    <div class="flex justify-center relative items-center full">
-                                        <!-- Icon Placeholder -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
-                                        </svg>
-                                    </div>
-                                    <div class="pb-2">
-                                        <h3 class="text-xs absulate text-center">Swisscontact Bangladesh</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide  rounded-lg shadow-lg overflow-hidden w-64 h-30">
-                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
-                                        </svg>
-                                    </div>
-                                    <div class="p-3">
-                                        <h3 class="text-xs text-center">Staff Directory</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide  rounded-lg shadow-lg overflow-hidden w-64 h-30">
-                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
-                                        </svg>
-                                    </div>
-                                    <div class="p-3">
-                                        <h3 class="text-xs text-center">MIS SCBD</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden w-64 h-30">
-                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
-                                        </svg>
-                                    </div>
-                                    <div class="py-3">
-                                        <h3 class="text-xs text-center">Request For Proposal</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide  rounded-lg shadow-lg overflow-hidden w-64 h-30">
-                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
-                                        </svg>
-                                    </div>
-                                    <div class="pb-2">
-                                        <h3 class="text-xs text-center">Microsoft Sign in Security Authanticator</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide  rounded-lg shadow-lg overflow-hidden w-64 h-30">
-                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
-                                        </svg>
-                                    </div>
-                                    <div class="p-3">
-                                        <h3 class="text-xs text-center">Sharepoint</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden w-64 h-30">
-                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
-                                        </svg>
-                                    </div>
-                                    <div class="p-3">
-                                        <h3 class="text-xs text-center">MIS SCBD</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden w-64 h-30">
-                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
-                                        </svg>
-                                    </div>
-                                    <div class="py-3">
-                                        <h3 class="text-xs text-center">Request For Proposal</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide  rounded-lg shadow-lg overflow-hidden w-64 h-30">
-                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
-                                        </svg>
-                                    </div>
-                                    <div class="pb-2">
-                                        <h3 class="text-xs text-center">Microsoft Sign in Security Authanticator</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide  rounded-lg shadow-lg overflow-hidden w-64 h-30">
-                                <a href="#guidelines" class="bg-white p-2 rounded-lg shadow hover:shadow-lg transition  flex flex-col justify-between">
-                                    <div class="flex justify-center items-center h-1/2">
-                                        <!-- Icon Placeholder -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6h6v6m2 5H7a2 2 0 01-2-2V7a2 2 0 012-2h5l2-3h4a2 2 0 012 2v12a2 2 0 01-2 2z" />
-                                        </svg>
-                                    </div>
-                                    <div class="p-3">
-                                        <h3 class="text-xs text-center">Sharepoint</h3>
-                                    </div>
-                                </a>
-                            </div>
+                            
+                            
                         </div>
 
                         <!-- Swiper Navigation buttons -->
@@ -219,206 +92,25 @@
             </section>
         <!-- Project Templates -->
             <section class="mb-8">
-                <h2 class="text-2xl font-semibold mb-4 mt-6">Project Templates</h2>
+                <h2 class="text-2xl font-semibold mb-4 mt-6">Projects</h2>
                 <div class="container relative relative group w-full h-full mx-auto px-4">
-                    <div class="swiper mySwiper">
+                    <div class="swiper mySwiper1">
                         <div class="swiper-wrapper">
                             <!-- Card  -->
                             <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
                                 <a 
                                     href="#" 
-                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
-                                    >
+                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full">
                                     <div class="flex justify-center items-center h-2/3 mb-2">
-                                        <!-- Logo/Image Placeholder -->
-                                        <img 
-                                        src="img/astha.png" 
+                                    <!-- Logo/Image Placeholder -->
+                                    <img 
+                                        src="img/bmmdp.png" 
                                         alt="Project Logo" 
                                         class="w-40 h-16 object-contain"
-                                        >
-                                    </div>
-                                    <div class="text-center">
-                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a 
-                                    href="#" 
-                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
                                     >
-                                    <div class="flex justify-center items-center h-2/3 mb-2">
-                                        <!-- Logo/Image Placeholder -->
-                                        <img 
-                                        src="img/astha.png" 
-                                        alt="Project Logo" 
-                                        class="w-40 h-16 object-contain"
-                                        >
                                     </div>
                                     <div class="text-center">
-                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a 
-                                    href="#" 
-                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
-                                    >
-                                    <div class="flex justify-center items-center h-2/3 mb-2">
-                                        <!-- Logo/Image Placeholder -->
-                                        <img 
-                                        src="img/astha.png" 
-                                        alt="Project Logo" 
-                                        class="w-40 h-16 object-contain"
-                                        >
-                                    </div>
-                                    <div class="text-center">
-                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a 
-                                    href="#" 
-                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
-                                    >
-                                    <div class="flex justify-center items-center h-2/3 mb-2">
-                                        <!-- Logo/Image Placeholder -->
-                                        <img 
-                                        src="img/astha.png" 
-                                        alt="Project Logo" 
-                                        class="w-40 h-16 object-contain"
-                                        >
-                                    </div>
-                                    <div class="text-center">
-                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a 
-                                    href="#" 
-                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
-                                    >
-                                    <div class="flex justify-center items-center h-2/3 mb-2">
-                                        <!-- Logo/Image Placeholder -->
-                                        <img 
-                                        src="img/astha.png" 
-                                        alt="Project Logo" 
-                                        class="w-40 h-16 object-contain"
-                                        >
-                                    </div>
-                                    <div class="text-center">
-                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a 
-                                    href="#" 
-                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
-                                    >
-                                    <div class="flex justify-center items-center h-2/3 mb-2">
-                                        <!-- Logo/Image Placeholder -->
-                                        <img 
-                                        src="img/astha.png" 
-                                        alt="Project Logo" 
-                                        class="w-40 h-16 object-contain"
-                                        >
-                                    </div>
-                                    <div class="text-center">
-                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a 
-                                    href="#" 
-                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
-                                    >
-                                    <div class="flex justify-center items-center h-2/3 mb-2">
-                                        <!-- Logo/Image Placeholder -->
-                                        <img 
-                                        src="img/astha.png" 
-                                        alt="Project Logo" 
-                                        class="w-40 h-16 object-contain"
-                                        >
-                                    </div>
-                                    <div class="text-center">
-                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a 
-                                    href="#" 
-                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
-                                    >
-                                    <div class="flex justify-center items-center h-2/3 mb-2">
-                                        <!-- Logo/Image Placeholder -->
-                                        <img 
-                                        src="img/astha.png" 
-                                        alt="Project Logo" 
-                                        class="w-40 h-16 object-contain"
-                                        >
-                                    </div>
-                                    <div class="text-center">
-                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a 
-                                    href="#" 
-                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
-                                    >
-                                    <div class="flex justify-center items-center h-2/3 mb-2">
-                                        <!-- Logo/Image Placeholder -->
-                                        <img 
-                                        src="img/astha.png" 
-                                        alt="Project Logo" 
-                                        class="w-40 h-16 object-contain"
-                                        >
-                                    </div>
-                                    <div class="text-center">
-                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a 
-                                    href="#" 
-                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
-                                    >
-                                    <div class="flex justify-center items-center h-2/3 mb-2">
-                                        <!-- Logo/Image Placeholder -->
-                                        <img 
-                                        src="img/astha.png" 
-                                        alt="Project Logo" 
-                                        class="w-40 h-16 object-contain"
-                                        >
-                                    </div>
-                                    <div class="text-center">
-                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide rounded-lg shadow-lg overflow-hidden">
-                                <a 
-                                    href="#" 
-                                    class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full"
-                                    >
-                                    <div class="flex justify-center items-center h-2/3 mb-2">
-                                        <!-- Logo/Image Placeholder -->
-                                        <img 
-                                        src="img/astha.png" 
-                                        alt="Project Logo" 
-                                        class="w-40 h-16 object-contain"
-                                        >
-                                    </div>
-                                    <div class="text-center">
-                                        <h3 class="text-sm font-medium text-gray-800 truncate">Astha</h3>
+                                    <h3 class="text-sm font-medium text-gray-800 truncate">BMMDB</h3>
                                     </div>
                                 </a>
                             </div>
@@ -689,7 +381,7 @@
             </section>
 
         <!-- Guest Register -->
-                <div class="GScontainer">
+                <!-- <div class="GScontainer">
                     <a href="#" class="button type--C">
                         <div class="button__line"></div>
                         <div class="button__line"></div>
@@ -697,7 +389,7 @@
                         <div class="button__drow1"></div>
                         <div class="button__drow2"></div>
                     </a>
-                </div>
+                </div> -->
 
 
 <?php require_once('footer.php') ?>

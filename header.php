@@ -157,7 +157,7 @@
     </style>
 
 
-    <style>
+    <!-- <style>
                     .type--A {
                     --line_color: #555555;
                     --back_color: #ffecf6;
@@ -411,7 +411,7 @@
                     }
 
 
-    </style>
+    </style> -->
 
 </head>
 
