@@ -12,73 +12,66 @@
 <body class="font-sans bg-gray-200 text-gray-800">
 
   <!-- Sidebar -->
-  <div class="fixed z-10 right-0 bottom-0 h-96 w-72 border-2 rounded-lg bg-white p-6 shadow-lg">
+  <div class="fixed z-10 right-4 top-1/2 transform -translate-y-1/2 h-96 w-72 border-2 rounded-lg bg-white p-6 shadow-lg overflow-auto scrollbar-hidden" style="scrollbar-width: none; -ms-overflow-style: none;">
+    <style>
+      /* Hide scrollbar for Webkit browsers */
+      .scrollbar-hidden::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+
     <h2 class="text-lg font-bold mb-6 text-blue-500">Other Projects</h2>
-    
 
-      <div class="relative overflow-x-auto">
-          <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-              <tbody>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th id="header"
-                      class="px-6 py-3 text-left cursor-pointer transition-colors 
-                            hover:bg-gray-200 hover:text-gray-800 
-                            active:bg-gray-400 active:text-black">
-                      Astha
-                    </th>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th id="header"
-                      class="px-6 py-3 text-left cursor-pointer transition-colors 
-                            hover:bg-gray-200 hover:text-gray-800 
-                            active:bg-gray-400 active:text-black">
-                      Astha
-                    </th>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th id="header"
-                      class="px-6 py-3 text-left cursor-pointer transition-colors 
-                            hover:bg-gray-200 hover:text-gray-800 
-                            active:bg-gray-400 active:text-black">
-                      Astha
-                    </th>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th id="header"
-                      class="px-6 py-3 text-left cursor-pointer transition-colors 
-                            hover:bg-gray-200 hover:text-gray-800 
-                            active:bg-gray-400 active:text-black">
-                      Astha
-                    </th>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th id="header"
-                      class="px-6 py-3 text-left cursor-pointer transition-colors 
-                            hover:bg-gray-200 hover:text-gray-800 
-                            active:bg-gray-400 active:text-black">
-                      Astha
-                    </th>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th id="header"
-                      class="px-6 py-3 text-left cursor-pointer transition-colors 
-                            hover:bg-gray-200 hover:text-gray-800 
-                            active:bg-gray-400 active:text-black">
-                      Astha
-                    </th>
-                  </tr>
-              </tbody>
-          </table>
-      </div>
-
+    <div class="relative">
+      <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+        <tbody>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th id="header" class="px-6 py-3 text-left cursor-pointer transition-colors hover:bg-gray-200 hover:text-gray-800 active:bg-gray-400 active:text-black">Astha</th>
+          </tr>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th id="header" class="px-6 py-3 text-left cursor-pointer transition-colors hover:bg-gray-200 hover:text-gray-800 active:bg-gray-400 active:text-black">Astha</th>
+          </tr>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th id="header" class="px-6 py-3 text-left cursor-pointer transition-colors hover:bg-gray-200 hover:text-gray-800 active:bg-gray-400 active:text-black">Astha</th>
+          </tr>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th id="header" class="px-6 py-3 text-left cursor-pointer transition-colors hover:bg-gray-200 hover:text-gray-800 active:bg-gray-400 active:text-black">Astha</th>
+          </tr>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th id="header" class="px-6 py-3 text-left cursor-pointer transition-colors hover:bg-gray-200 hover:text-gray-800 active:bg-gray-400 active:text-black">Astha</th>
+          </tr>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th id="header" class="px-6 py-3 text-left cursor-pointer transition-colors hover:bg-gray-200 hover:text-gray-800 active:bg-gray-400 active:text-black">Astha</th>
+          </tr>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th id="header" class="px-6 py-3 text-left cursor-pointer transition-colors hover:bg-gray-200 hover:text-gray-800 active:bg-gray-400 active:text-black">Astha</th>
+          </tr>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th id="header" class="px-6 py-3 text-left cursor-pointer transition-colors hover:bg-gray-200 hover:text-gray-800 active:bg-gray-400 active:text-black">Astha</th>
+          </tr>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th id="header" class="px-6 py-3 text-left cursor-pointer transition-colors hover:bg-gray-200 hover:text-gray-800 active:bg-gray-400 active:text-black">Astha</th>
+          </tr>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th id="header" class="px-6 py-3 text-left cursor-pointer transition-colors hover:bg-gray-200 hover:text-gray-800 active:bg-gray-400 active:text-black">Astha</th>
+          </tr>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th id="header" class="px-6 py-3 text-left cursor-pointer transition-colors hover:bg-gray-200 hover:text-gray-800 active:bg-gray-400 active:text-black">Astha</th>
+          </tr>
+          <!-- Repeat rows as necessary -->
+        </tbody>
+      </table>
+    </div>
   </div>
+
+
 
   <!-- Main Content -->
   <div class="pr-80 p-6 space-y-12">
+  <h1 class="text-4xl font-bold text-center text-gray-900">BMMDB</h1>
     <!-- Project Title and Banner -->
-    <div class="bg-white py-8 px-6 rounded-lg shadow-md">
-      <h1 class="text-4xl font-bold text-center text-gray-900">BMMDB</h1>
-      <div class="mt-6 flex justify-center">
+    <div class="bg-white py-8 rounded-lg shadow-md">
+      <div class=" flex justify-center">
         <img src="img/bmmdp.png" alt="BMMDB Banner" class="w-full max-w-4xl h-auto object-cover rounded-lg">
       </div>
       <p class="text-xl mt-4 text-center text-gray-600">
