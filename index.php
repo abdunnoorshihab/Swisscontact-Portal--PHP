@@ -528,47 +528,98 @@
             </section>
 
         <!-- Knowledge Sharing -->
-            <h2 class="text-2xl font-semibold mb-4">Knowledge Sharing</h2>
-            <section id="knowledge" class="mb-8 px-4">
-                
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-medium mb-2">Best Practices for Data Security</h3>
-                    <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-medium mb-2">Effective IT Communication Strategies</h3>
-                    <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <a href="knowledge_sharing.php"><h3 class="text-xl font-medium mb-2">Optimizing Your IT Infrastructure</h3></a>
-                    <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
-                </div>
+            <section class="mb-8">
+                <h2 class="text-2xl font-semibold mb-4 mt-6">Knowledge Sharing</h2>
+                <div class="container relative group w-full h-full mx-auto px-4">
+                    <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                        <div class="bg-white p-6 rounded-lg shadow">
+                            <h3 class="text-xl font-medium mb-2">Best Practices for Data Security</h3>
+                            <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
+                        </div>
+                        </div>
+                        <div class="swiper-slide p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                        <div class="bg-white p-6 rounded-lg shadow">
+                            <h3 class="text-xl font-medium mb-2">Best Practices for Data Security</h3>
+                            <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
+                        </div>
+                        </div>
+                        <div class="swiper-slide p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                        <div class="bg-white p-6 rounded-lg shadow">
+                            <h3 class="text-xl font-medium mb-2">Best Practices for Data Security</h3>
+                            <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
+                        </div>
+                        </div>
+                        <div class="swiper-slide p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                        <div class="bg-white p-6 rounded-lg shadow">
+                            <h3 class="text-xl font-medium mb-2">Best Practices for Data Security</h3>
+                            <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
+                        </div>
+                        </div>
+                        <div class="swiper-slide p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                        <div class="bg-white p-6 rounded-lg shadow">
+                            <h3 class="text-xl font-medium mb-2">Best Practices for Data Security</h3>
+                            <a href="knowledge_sharing.php" class="text-blue-500 hover:underline">Read Article</a>
+                        </div>
+                        </div>
+                        <!-- Repeat other slides -->
+                    </div>
+                    <!-- Swiper Navigation Buttons -->
+                    <div class="swiper-button-next text-black p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div class="swiper-button-prev text-black p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
                 </div>
             </section>
-
         <!-- Gender Equality -->
-        
             <h2 class="text-2xl font-semibold mb-4">Gender Equality</h2>
             <section id="guidelines" class="mb-8 px-4">
-                
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                <!-- Guideline Card -->
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-medium mb-2"><a href="gender_equality.php">Policies</a></h3>
-                    <p class="text-gray-600">Ensure all data is protected according to the company's data protection policies.<br><a href="gender_equality.php" class="text-blue-500 hover:underline">Read More</a>
-                    </p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-medium mb-2">E-Learning Course</h3>
-                    <p class="text-gray-600">Only authorized personnel should have access to critical systems and information.<br><a href="gender_equality.php" class="text-blue-500 hover:underline">Read More</a>
-                    </p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="text-xl font-medium mb-2">Incident Reporting</h3>
-                    <p class="text-gray-600">Report any incidents immediately to ensure swift resolution.<br><a href="gender_equality.php" class="text-blue-500 hover:underline">Read More</a></p>
-                </div>
-                </div>
+                <div class="container relative group w-full h-full mx-auto px-4">
+                    <div class="swiper mySwiper3">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                            <div class="bg-white p-6 rounded-lg shadow">
+                                <h3 class="text-xl font-medium mb-2"><a href="gender_equality.php">Policies</a></h3>
+                                <p class="text-gray-600">Ensure all data is protected according to the company's data protection policies.<br><a href="gender_equality.php" class="text-blue-500 hover:underline">Read More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                            <div class="bg-white p-6 rounded-lg shadow">
+                                <h3 class="text-xl font-medium mb-2">E-Learning Course</h3>
+                                <p class="text-gray-600">Only authorized personnel should have access to ...<br><a href="gender_equality.php" class="text-blue-500 hover:underline">Read More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                            <div class="bg-white p-6 rounded-lg shadow">
+                                <h3 class="text-xl font-medium mb-2">Incident Reporting</h3>
+                                <p class="text-gray-600">Report any incidents immediately to ensure swift resolution.<br><a href="gender_equality.php" class="text-blue-500 hover:underline">Read More</a></p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                            <div class="bg-white p-6 rounded-lg shadow">
+                                <h3 class="text-xl font-medium mb-2">E-Learning Course</h3>
+                                <p class="text-gray-600">Only authorized personnel should have access to ...<br><a href="gender_equality.php" class="text-blue-500 hover:underline">Read More</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center justify-between h-full overflow-hidden">
+                            <div class="bg-white p-6 rounded-lg shadow">
+                                <h3 class="text-xl font-medium mb-2">Incident Reporting</h3>
+                                <p class="text-gray-600">Report any incidents immediately to ensure swift resolution.<br><a href="gender_equality.php" class="text-blue-500 hover:underline">Read More</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Repeat other slides -->
+                    </div>
+                    <!-- Swiper Navigation Buttons -->
+                    <div class="swiper-button-next text-black p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div class="swiper-button-prev text-black p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                </div>      
             </section>
 
         <!-- Guest Register -->

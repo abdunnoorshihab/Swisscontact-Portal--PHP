@@ -214,5 +214,53 @@
     
 
 
+  <!--Knowledge Sharing -->
+        <script>
+            // Initialize Swiper
+            var swiper = new Swiper('.mySwiper2', {
+                slidesPerView: 3,
+                spaceBetween: 20,
+                loop: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    0: {
+                        slidesPerView: 1,
+                    },
+                    150: {
+                        slidesPerView: 2,
+                    },
+                    300: {
+                        slidesPerView: 3,
+                    },
+                }
+            });
+        </script>
+  <!--Gender Equality -->
+        <script>
+            // Initialize Swiper
+            var swiper = new Swiper('.mySwiper3', {
+                slidesPerView: 3,
+                spaceBetween: 10,
+                loop: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    0: {
+                        slidesPerView: 1,
+                    },
+                    150: {
+                        slidesPerView: 2,
+                    },
+                    300: {
+                        slidesPerView: 3,
+                    },
+                }
+            });
+        </script>
 </body>
 </html>
