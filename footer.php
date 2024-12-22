@@ -262,5 +262,43 @@
                 }
             });
         </script>
+
+
+<!--all events -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+        $(document).ready(function () {
+        var mySwiper = new Swiper(".swiper-container", {
+            autoHeight: true,
+            speed: 600,
+            direction: "horizontal",
+            pagination: {
+            el: ".swiper-pagination-progressbar-fill",
+            type: "progressbar",
+            },
+            loop: false,
+            effect: "slide",
+            spaceBetween: 30,
+            on: {
+            init: function () {
+                $(".swiper-pagination-switch").removeClass("text-indigo-500");
+                $(".swiper-pagination-switch").eq(0).addClass("text-indigo-500");
+            },
+            slideChangeTransitionStart: function () {
+                $(".swiper-pagination-switch").removeClass("text-indigo-500");
+                $(".swiper-pagination-switch").eq(mySwiper.realIndex).addClass("text-indigo-500");
+            },
+            },
+        });
+
+        $(".swiper-pagination-switch").click(function () {
+            mySwiper.slideTo($(this).index());
+            $(".swiper-pagination-switch").removeClass("text-indigo-500");
+            $(this).addClass("text-indigo-500");
+        });
+        });
+    </script>
 </body>
 </html>

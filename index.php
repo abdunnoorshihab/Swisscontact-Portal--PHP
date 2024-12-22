@@ -325,18 +325,38 @@
                 </div>
             </section>
         <!-- Events -->
-            <h2 class="text-2xl font-semibold mb-4">Events</h2>
+            <div class="flex justify-between">
+                <h2 class="text-2xl font-semibold mb-4">Events</h2>
+                <div class="justify-end w-full flex mb-5">
+                <button 
+                    type="button" 
+                    class="relative flex items-center justify-center py-2 px-4 w-1/6 text-sm font-semibold text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md transition-transform transform hover:from-blue-700 hover:to-blue-600 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 group">
+                    <a href="all_events.php" class="w-full text-center flex items-center justify-center">
+                        Show All Events
+                        <!-- Arrow -->
+                        <span 
+                        class="ml-2 transform transition-transform translate-x-0 opacity-0 group-hover:translate-x-2 group-hover:opacity-100 duration-300 ease-in-out">
+                        →
+                        </span>
+                    </a>
+                </button>
+
+
+                </div>
+
+            </div>
+            
             <section id="tutorials" class="mb-8 px-4 w-full">
                 <div class="swiper my-tutorial-swiper">
                     <div class="swiper-wrapper">
                         <!-- Slide 1 -->
                         <div class="swiper-slide">
                             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="event1.php">
+                                <a href="IT-Tutorials/card1.php">
                                     <img class="rounded-t-lg h-48 w-full" src="img/event1.jpg" alt="Event 1" />
                                 </a>
                                 <div class="p-5">
-                                    <a href="event1.php">
+                                    <a href="IT-Tutorials/card1.php">
                                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tech Conference 2024</h5>
                                     </a>
                                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Join industry leaders as they discuss the latest trends in technology and innovation.</p>
@@ -353,15 +373,15 @@
                         <!-- Slide 2 -->
                         <div class="swiper-slide">
                             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <a href="event1.php">
+                                <a href="IT-Tutorials/card2.php">
                                     <img class="rounded-t-lg h-48 w-full" src="img/event1.jpg" alt="Event 1" />
                                 </a>
                                 <div class="p-5">
-                                    <a href="event1.php">
+                                    <a href="IT-Tutorials/card2.php">
                                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">AI & Machine Learning Summit</h5>
                                     </a>
                                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Explore the future of AI and how machine learning is revolutionizing industries.</p>
-                                    <a href="IT-Tutorials/card1.php"
+                                    <a href="IT-Tutorials/card2.php"
                                         class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 gap-2">
                                     Read more
                                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
