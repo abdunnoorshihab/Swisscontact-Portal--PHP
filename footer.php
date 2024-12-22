@@ -4,221 +4,144 @@
           <p>&copy; 2024 Swisscontact. All rights reserved.</p>
         </div>
   </footer>
-  <!-- Header JS -->
-    <script>
-          function toggleMenu() {
-              document.getElementById("menuItems").classList.toggle("active");
-          }
-    </script>
+    <!-- Header JS -->
+        <script>
+            function toggleMenu() {
+                document.getElementById("menuItems").classList.toggle("active");
+            }
+        </script>
 
 
-  <!-- Carousel -->
-            
-    <script>
-        const carousel = document.getElementById('carousel');
-        const next = document.getElementById('next');
-        const prev = document.getElementById('prev');
-        const pagination = document.getElementById('pagination');
+    <!-- Carousel -->
+                
+        <script>
+            const carousel = document.getElementById('carousel');
+            const next = document.getElementById('next');
+            const prev = document.getElementById('prev');
+            const pagination = document.getElementById('pagination');
 
-        let index = 0;
-        const totalSlides = carousel.children.length;
+            let index = 0;
+            const totalSlides = carousel.children.length;
 
-        // Function to update carousel position
-        const updateCarousel = () => {
-        carousel.style.transform = `translateX(-${index * 100}%)`;
-        updatePagination();
-        };
+            // Function to update carousel position
+            const updateCarousel = () => {
+            carousel.style.transform = `translateX(-${index * 100}%)`;
+            updatePagination();
+            };
 
-        // Function to update pagination dots
-        const updatePagination = () => {
-        Array.from(pagination.children).forEach((dot, dotIndex) => {
-            dot.classList.toggle('bg-gray-800', dotIndex === index);
-            dot.classList.toggle('bg-gray-400', dotIndex !== index);
-        });
-        };
+            // Function to update pagination dots
+            const updatePagination = () => {
+            Array.from(pagination.children).forEach((dot, dotIndex) => {
+                dot.classList.toggle('bg-gray-800', dotIndex === index);
+                dot.classList.toggle('bg-gray-400', dotIndex !== index);
+            });
+            };
 
-        // Automatically change slides every 3 seconds
-        let interval = setInterval(() => {
-        index = (index + 1) % totalSlides;
-        updateCarousel();
-        }, 3000);
-
-        // Navigate to next slide
-        next.addEventListener('click', () => {
-        clearInterval(interval); // Reset interval
-        index = (index + 1) % totalSlides;
-        updateCarousel();
-        interval = setInterval(() => {
-            index = (index + 1) % totalSlides;
-            updateCarousel();
-        }, 3000);
-        });
-
-        // Navigate to previous slide
-        prev.addEventListener('click', () => {
-        clearInterval(interval); // Reset interval
-        index = (index - 1 + totalSlides) % totalSlides;
-        updateCarousel();
-        interval = setInterval(() => {
-            index = (index + 1) % totalSlides;
-            updateCarousel();
-        }, 3000);
-        });
-
-        // Generate pagination dots
-        for (let i = 0; i < totalSlides; i++) {
-        const dot = document.createElement('div');
-        dot.classList.add('w-3', 'h-3', 'rounded-full', 'cursor-pointer', 'bg-gray-400');
-        dot.addEventListener('click', () => {
-            clearInterval(interval); // Reset interval
-            index = i;
-            updateCarousel();
-            interval = setInterval(() => {
+            // Automatically change slides every 3 seconds
+            let interval = setInterval(() => {
             index = (index + 1) % totalSlides;
             updateCarousel();
             }, 3000);
-        });
-        pagination.appendChild(dot);
-        }
 
-        // Initialize carousel and pagination
-        updateCarousel();
+            // Navigate to next slide
+            next.addEventListener('click', () => {
+            clearInterval(interval); // Reset interval
+            index = (index + 1) % totalSlides;
+            updateCarousel();
+            interval = setInterval(() => {
+                index = (index + 1) % totalSlides;
+                updateCarousel();
+            }, 3000);
+            });
 
+            // Navigate to previous slide
+            prev.addEventListener('click', () => {
+            clearInterval(interval); // Reset interval
+            index = (index - 1 + totalSlides) % totalSlides;
+            updateCarousel();
+            interval = setInterval(() => {
+                index = (index + 1) % totalSlides;
+                updateCarousel();
+            }, 3000);
+            });
 
-    </script>
-
-  <!-- Quick links -->
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <script>
-        // Initialize Swiper
-        var swiper = new Swiper('.mySwiper', {
-            slidesPerView: 6,
-            spaceBetween: 20,
-            loop: true,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            breakpoints: {
-                0: {
-                    slidesPerView: 1,
-                },
-                150: {
-                    slidesPerView: 2,
-                },
-                300: {
-                    slidesPerView: 3,
-                },
-                450: {
-                    slidesPerView: 4,
-                },
-                600: {
-                    slidesPerView: 5,
-                },
-                750: {
-                    slidesPerView: 6,
-                },
-                1000: {
-                    slidesPerView: 7,
-                },
+            // Generate pagination dots
+            for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement('div');
+            dot.classList.add('w-3', 'h-3', 'rounded-full', 'cursor-pointer', 'bg-gray-400');
+            dot.addEventListener('click', () => {
+                clearInterval(interval); // Reset interval
+                index = i;
+                updateCarousel();
+                interval = setInterval(() => {
+                index = (index + 1) % totalSlides;
+                updateCarousel();
+                }, 3000);
+            });
+            pagination.appendChild(dot);
             }
-        });
-    </script>
 
-  <!-- Forms & Templates JS -->
- 
-
-    
-  <!-- Staff Directory js -->
+            // Initialize carousel and pagination
+            updateCarousel();
 
 
-  <!--vendors js -->
- 
-  <!--Project templates-->
+        </script>
 
-    <script>
-        // Initialize Swiper
-        var swiper = new Swiper('.mySwiper1', {
-            slidesPerView: 4,
-            spaceBetween: 20,
-            loop: true,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            breakpoints: {
-                0: {
-                    slidesPerView: 1,
-                },
-                150: {
-                    slidesPerView: 2,
-                },
-                300: {
-                    slidesPerView: 3,
-                },
-                450: {
-                    slidesPerView: 4,
-                },
-                600: {
-                    slidesPerView: 5,
-                },
-                800: {
-                    slidesPerView: 6,
-                },
-            }
-        });
-    </script>
-  <!--IT Tutorials-->
-    <!--swiper-->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Quick links -->
 
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const myTutorialSwiper = new Swiper(".my-tutorial-swiper", {
-                slidesPerView: 1,
+        <script>
+            // Initialize Swiper
+            var swiper = new Swiper('.mySwiper', {
+                slidesPerView: 6,
                 spaceBetween: 20,
                 loop: true,
                 navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
                 },
                 breakpoints: {
-                    640: {
+                    0: {
+                        slidesPerView: 1,
+                    },
+                    150: {
                         slidesPerView: 2,
-                        spaceBetween: 20,
                     },
-                    768: {
+                    300: {
                         slidesPerView: 3,
-                        spaceBetween: 30,
                     },
-                    1024: {
+                    450: {
                         slidesPerView: 4,
-                        spaceBetween: 40,
                     },
-                },
+                    600: {
+                        slidesPerView: 5,
+                    },
+                    750: {
+                        slidesPerView: 6,
+                    },
+                    1000: {
+                        slidesPerView: 7,
+                    },
+                }
             });
-        });
-    </script>
+        </script>
 
-
-
-
+    <!-- Forms & Templates JS -->
     
 
+        
+    <!-- Staff Directory js -->
 
-  <!--Knowledge Sharing -->
+
+    <!--vendors js -->
+    
+    <!--Project templates-->
+
         <script>
             // Initialize Swiper
-            var swiper = new Swiper('.mySwiper2', {
-                slidesPerView: 3,
+            var swiper = new Swiper('.mySwiper1', {
+                slidesPerView: 4,
                 spaceBetween: 20,
                 loop: true,
                 navigation: {
@@ -235,36 +158,113 @@
                     300: {
                         slidesPerView: 3,
                     },
+                    450: {
+                        slidesPerView: 4,
+                    },
+                    600: {
+                        slidesPerView: 5,
+                    },
+                    800: {
+                        slidesPerView: 6,
+                    },
                 }
             });
         </script>
-  <!--Gender Equality -->
+    <!--IT Tutorials-->
+        <!--swiper-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
         <script>
-            // Initialize Swiper
-            var swiper = new Swiper('.mySwiper3', {
-                slidesPerView: 3,
-                spaceBetween: 10,
-                loop: true,
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                breakpoints: {
-                    0: {
-                        slidesPerView: 1,
+            document.addEventListener("DOMContentLoaded", () => {
+                const myTutorialSwiper = new Swiper(".my-tutorial-swiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    loop: true,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
                     },
-                    150: {
-                        slidesPerView: 2,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
                     },
-                    300: {
-                        slidesPerView: 3,
+                    breakpoints: {
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 30,
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                            spaceBetween: 40,
+                        },
                     },
-                }
+                });
             });
         </script>
 
 
-<!--all events -->
+
+
+        
+
+
+    <!--Knowledge Sharing -->
+            <script>
+                // Initialize Swiper
+                var swiper = new Swiper('.mySwiper2', {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                    loop: true,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    breakpoints: {
+                        0: {
+                            slidesPerView: 1,
+                        },
+                        150: {
+                            slidesPerView: 2,
+                        },
+                        300: {
+                            slidesPerView: 3,
+                        },
+                    }
+                });
+            </script>
+    <!--Gender Equality -->
+            <script>
+                // Initialize Swiper
+                var swiper = new Swiper('.mySwiper3', {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                    loop: true,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    breakpoints: {
+                        0: {
+                            slidesPerView: 1,
+                        },
+                        150: {
+                            slidesPerView: 2,
+                        },
+                        300: {
+                            slidesPerView: 3,
+                        },
+                    }
+                });
+            </script>
+
+
+    <!--all events -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
