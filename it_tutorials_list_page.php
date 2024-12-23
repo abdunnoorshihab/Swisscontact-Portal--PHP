@@ -49,9 +49,9 @@
           Here’s an example of a simple button styled with Tailwind CSS:
         </p>
         <pre class="bg-gray-100 p-4 rounded mt-4 text-gray-800 overflow-auto">
-&lt;button class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"&gt;
-  Click Me
-&lt;/button&gt;
+                &lt;button class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"&gt;
+                Click Me
+                &lt;/button&gt;
         </pre>
       </section>
 
