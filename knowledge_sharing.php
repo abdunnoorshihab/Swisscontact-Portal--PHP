@@ -2,51 +2,63 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-body, h1, h2, h3, h4, h5 {
-  font-family: "Raleway", sans-serif;
-}
-.w3-content {
-  max-width: 100%; 
-}
-</style>
+    /* Apply global font styling */
+    body {
+      font-family: "Raleway", sans-serif;
+    }
+  </style>
 </head>
-<body class="w3-light-grey">
+<body class="bg-gray-100">
 
-<!-- Content Wrapper -->
-<div class="w3-content" style="width: 100%;"> 
+  <!-- Main Container -->
+  <div class="container mx-auto px-4 py-8">
 
-  <!-- Header -->
-  <header class="w3-container w3-center w3-padding-32"> 
-    <h1><b>Best Practices for Data Security</b></h1>
-  </header>
+    <!-- Header -->
+    <header class="border-b border-gray-300 pb-6 mb-6">
+      <h1 class="text-5xl font-bold text-gray-800 text-center mb-4">Best Practices for Data Security</h1>
+      <p class="text-center text-gray-600 text-sm italic">Updated on <span class="font-medium">April 7, 2014</span></p>
+    </header>
 
-  <!-- Grid -->
-  <div class="w-full">
+    <!-- News Article -->
+    <article class="max-w-3xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
 
-    <!-- Blog entries -->
-    <div class="w3-col l12 s12"> 
-      <!-- Blog entry -->
-      <div class="w3-card-4 w3-margin w3-white">
-        <img src="https://www.matc.edu/course-catalog/stem/it-computer-support-specialist_aas_procard_2016-17_107946.png" alt="Nature" style="width: 100%;"> <!-- Full width -->
-        <div class="w3-container">
-          <h3><b>TITLE HEADING</b></h3>
-          <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
-        </div>
+      <!-- Image Section -->
+      <img 
+        src="https://www.matc.edu/course-catalog/stem/it-computer-support-specialist_aas_procard_2016-17_107946.png" 
+        alt="Data Security Illustration" 
+        class="w-full h-64 object-cover"
+      >
 
-        <div class="w3-container">
-          <p>In today's digital age, online privacy and security are more important than ever. Whether you're concerned about protecting your personal information on public Wi-Fi, accessing geo-restricted content, or just maintaining privacy while browsing, a Virtual Private Network (VPN) can provide the protection you need. If you’ve recently acquired a new VPN service and are unsure how to set it up and use it, don't worry! This guide will walk you through the entire process.</p>
-          <div class="w3-row">
-            <div class="w3-col m8 s12">
-              <p><button class="inline-flex my-6 items-center px-3 py-2 text-sm font-medium text-white bg-gradient-to-r from-gray-400 to-blue-600 rounded-lg shadow-md hover:from-blue-700 hover:to-blue-600 hover:text-white transform transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 gap-2"><b>READ MORE »</b></button></p>
-            </div>
-            <div class="w3-col m4 w3-hide-small">
-              <p><span class="w3-padding-large w3-right"><b>Comments</b> <span class="w3-tag">0</span></span></p>
-            </div>
+      <!-- Content Section -->
+      <div class="p-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">TITLE HEADING</h2>
+        <p class="text-gray-500 text-sm mb-6">By <span class="font-medium">John Doe</span> | <span class="italic">April 7, 2014</span></p>
+        
+        <p class="text-gray-700 leading-relaxed mb-6">
+          In today's digital age, online privacy and security are more important than ever. Whether you're concerned 
+          about protecting your personal information on public Wi-Fi, accessing geo-restricted content, or just 
+          maintaining privacy while browsing, a Virtual Private Network (VPN) can provide the protection you need. 
+        </p>
+        <p class="text-gray-700 leading-relaxed mb-6">
+          If you’ve recently acquired a new VPN service and are unsure how to set it up and use it, don't worry! This 
+          guide will walk you through the entire process, helping you get the most out of your investment in online 
+          security and privacy.
+        </p>
+
+        <!-- Action Section -->
+        <div class="flex justify-between items-center border-t border-gray-300 pt-6">
+          <button class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-md shadow-md hover:from-blue-600 hover:to-blue-800 transform transition-transform hover:scale-105 focus:ring-4 focus:ring-blue-300">
+            READ MORE »
+          </button>
+          <div class="text-gray-600">
+            <span class="font-bold">Comments:</span> 
+            <span class="bg-gray-200 text-gray-800 rounded-full px-3 py-1 ml-1">0</span>
           </div>
         </div>
       </div>
-      <hr>
-    </div>
+    </article>
   </div>
+
+
 
 <?php require_once('footer.php') ?>
