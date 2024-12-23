@@ -1,13 +1,13 @@
 <?php require_once('header.php') ?>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
+  <style>
     /* Apply global font styling */
     body {
       font-family: "Raleway", sans-serif;
     }
   </style>
-</head>
+
 <body class="bg-gray-100">
 
   <!-- Main Container -->
@@ -26,8 +26,7 @@
       <img 
         src="https://www.matc.edu/course-catalog/stem/it-computer-support-specialist_aas_procard_2016-17_107946.png" 
         alt="Data Security Illustration" 
-        class="w-full h-64 object-cover"
-      >
+        class="w-full h-64 object-cover">
 
       <!-- Content Section -->
       <div class="p-8">
@@ -40,16 +39,18 @@
           maintaining privacy while browsing, a Virtual Private Network (VPN) can provide the protection you need. 
         </p>
         <p class="text-gray-700 leading-relaxed mb-6">
-          If you’ve recently acquired a new VPN service and are unsure how to set it up and use it, don't worry! This 
+          If you've recently acquired a new VPN service and are unsure how to set it up and use it, don't worry! This 
           guide will walk you through the entire process, helping you get the most out of your investment in online 
           security and privacy.
         </p>
 
         <!-- Action Section -->
         <div class="flex justify-between items-center border-t border-gray-300 pt-6">
-          <button class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-md shadow-md hover:from-blue-600 hover:to-blue-800 transform transition-transform hover:scale-105 focus:ring-4 focus:ring-blue-300">
-            READ MORE »
-          </button>
+          <a href="https://www.titanfile.com/blog/data-security-best-practices/">
+            <button class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-md shadow-md hover:from-blue-600 hover:to-blue-800 transform transition-transform hover:scale-105 focus:ring-4 focus:ring-blue-300">
+              READ MORE »
+            </button>
+          </a>
           <div class="text-gray-600">
             <span class="font-bold">Comments:</span> 
             <span class="bg-gray-200 text-gray-800 rounded-full px-3 py-1 ml-1">0</span>

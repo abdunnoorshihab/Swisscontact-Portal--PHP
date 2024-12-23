@@ -1,12 +1,11 @@
 <?php require_once('header.php') ?>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
+  <style>
     body {
       font-family: "Raleway", sans-serif;
     }
   </style>
-</head>
 <body class="bg-gray-50">
 
   <!-- Main Container -->
@@ -55,9 +54,11 @@
 
       <!-- Footer Actions -->
       <div class="bg-gray-100 p-6 flex flex-col md:flex-row justify-between items-center">
+        <a href="https://www.un.org/sustainabledevelopment/gender-equality/">
         <button class="bg-blue-600 text-white font-bold py-2 px-6 rounded-lg shadow-md hover:bg-blue-700 transition">
           READ MORE »
         </button>
+        </a>
         <div class="mt-4 md:mt-0 text-gray-600">
           <span class="font-bold">Comments:</span> 
           <span class="bg-gray-200 text-gray-800 rounded-full px-3 py-1 ml-2">0</span>
@@ -81,7 +82,7 @@
           <div class="p-4">
             <h4 class="text-lg font-bold text-gray-800">Understanding Cyber Threats</h4>
             <p class="text-gray-600 text-sm mt-2">March 15, 2024</p>
-            <a href="#" class="text-blue-600 font-medium text-sm mt-4 inline-block hover:underline">Read More</a>
+            <a href="https://esaro.unfpa.org/en/topics/gender-equality#:~:text=Gender%20equality%20means%20that%20the,in%20dignity%2C%20safety%20and%20security." class="text-blue-600 font-medium text-sm mt-4 inline-block hover:underline">Read More</a>
           </div>
         </div>
 
