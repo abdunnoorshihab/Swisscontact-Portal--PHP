@@ -23,21 +23,21 @@
                     </div>
                 </div>
 
-            <!-- Navigation Buttons -->
-            <button
-                id="prev"
-                class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-500 bg-opacity-50 text-white p-2 rounded-full z-10">
-                &#10094;
-            </button>
-            <button
-                id="next"
-                class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-500 bg-opacity-50 text-white p-2 rounded-full z-10">
-                &#10095;
-            </button>
+                <!-- Navigation Buttons -->
+                    <button
+                        id="prev"
+                        class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-500 bg-opacity-50 text-white p-2 rounded-full z-10">
+                        &#10094;
+                    </button>
+                    <button
+                        id="next"
+                        class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-500 bg-opacity-50 text-white p-2 rounded-full z-10">
+                        &#10095;
+                    </button>
 
-            <!-- Pagination Dots -->
-            <div id="pagination" class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-            </div>
+                <!-- Pagination Dots -->
+                <div id="pagination" class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                </div>
             </div>
 
 
