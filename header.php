@@ -182,6 +182,7 @@
                             <a href="#">IT Requisition</a>
                             <a href="it_tutorials.php">Tutorials</a>
                             <a href="it_guidelines.php">IT Guidelines</a>
+                            <a href="device_spec.php">Device Specification</a>
                         </div>
                     </div>
                     <a href="photo_gallery.php">Photo Gallery</a>
