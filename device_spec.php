@@ -10,15 +10,12 @@ if (!$conn) {
     echo "Could not connect to the database!";
     exit;
 }
-
-// Fetch staff data
-$sql = "SELECT * FROM device where id = 1";
-$result = mysqli_query($conn, $sql);
 ?>
 <?php require_once('header.php') ?>
 
 
 <div class="px-8">
+<h1 class="text-center font-bold text-2xl">Device Specification</h1>
   <div class="border-b border-slate-200">
     <button onclick="toggleAccordion(1)" class="w-full flex justify-between items-center py-5 text-slate-800">
       <span>Laptop Specification</span>
@@ -33,47 +30,56 @@ $result = mysqli_query($conn, $sql);
       <div class="p-8 flex justify-between">
         <!-- Team Leader Laptop Specification -->
         <div class="mb-10">
-          <h2 class="text-xl font-semibold mb-4">Team Leader Laptop Specification:</h2>
-          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
-            // $sql = "SELECT * FROM device WHERE id = 0";?>
+        <?php 
+        $sql = "SELECT * FROM device where id = 1";
+        $result = mysqli_query($conn, $sql);
+        if ($result) { while ($rows = mysqli_fetch_array($result)) {
+        ?>
+          <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
+          
             
             <ul class="list-disc pl-6 space-y-2">
-              <li><span class="font-semibold">Laptop Type:</span> <?php echo $rows['type']; ?></li>
-              <li><span class="font-semibold">Brand:</span> <?php echo $rows['brand']; ?></li>
-              <li><span class="font-semibold">Models:</span> <?php echo $rows['model']; ?></li>
-              <li><span class="font-semibold">Processor:</span> <?php echo $rows['processor']; ?></li>
-              <li><span class="font-semibold">Processor Generation:</span> <?php echo $rows['generation']; ?></li>
-              <li><span class="font-semibold">Storage:</span> <?php echo $rows['storage']; ?></li>
-              <li><span class="font-semibold">Memory (RAM):</span> <?php echo $rows['memory']; ?></li>
-              <li><span class="font-semibold">Weight:</span> <?php echo $rows['weight']; ?></li>
-              <li><span class="font-semibold">Display Type:</span> <?php echo $rows['display_type']; ?></li>
-              <li><span class="font-semibold">Display:</span> <?php echo $rows['display_size']; ?></li>
-              <li><span class="font-semibold">Warranty:</span> <?php echo $rows['warrenty']; ?></li>
-              <li><span class="font-semibold">Operating System:</span> <?php echo $rows['os']; ?></li>
+              <li><span class="font-semibold">Laptop Type:</span> <?php echo $rows['spec_1']; ?></li>
+              <li><span class="font-semibold">Brand:</span> <?php echo $rows['spec_2']; ?></li>
+              <li><span class="font-semibold">Models:</span> <?php echo $rows['spec_3']; ?></li>
+              <li><span class="font-semibold">Processor:</span> <?php echo $rows['spec_4']; ?></li>
+              <li><span class="font-semibold">Processor Generation:</span> <?php echo $rows['spec_5']; ?></li>
+              <li><span class="font-semibold">Storage:</span> <?php echo $rows['spec_6']; ?></li>
+              <li><span class="font-semibold">Memory (RAM):</span> <?php echo $rows['spec_7']; ?></li>
+              <li><span class="font-semibold">Weight:</span> <?php echo $rows['spec_8']; ?></li>
+              <li><span class="font-semibold">Display Type:</span> <?php echo $rows['spec_9']; ?></li>
+              <li><span class="font-semibold">Display:</span> <?php echo $rows['spec_10']; ?></li>
+              <li><span class="font-semibold">Warranty:</span> <?php echo $rows['spec_11']; ?></li>
+              <li><span class="font-semibold">Operating System:</span> <?php echo $rows['spec_12']; ?></li>
             </ul>
           <?php } } ?>
         </div>
 
         <!-- Other Staff Laptop Specification -->
         <div>
-          <h2 class="text-xl font-semibold mb-4">Other Staff Laptop Specification:</h2>
-          <?php
-          $sql = "SELECT * FROM device where id = 1";
+        <?php
+          $sql = "SELECT * FROM device where id = 2";
           $result = mysqli_query($conn, $sql);
           ?>
-          <ul class="list-disc pl-6 space-y-2">
-            <li><span class="font-semibold">Laptop Type:</span> Professional Series</li>
-            <li><span class="font-semibold">Brand:</span> HP/Lenovo/Dell (ProBook/ThinkPad/Vostro/Latitude)</li>
-            <li><span class="font-semibold">Processor:</span> Intel Core i5 / AMD Ryzen 5</li>
-            <li><span class="font-semibold">Processor Generation:</span> 13 Gen or higher/ Ryzen 6 Gen or higher</li>
-            <li><span class="font-semibold">Storage:</span> 512GB SSD NVMe/M.2</li>
-            <li><span class="font-semibold">Memory (RAM):</span> 16 GB</li>
-            <li><span class="font-semibold">Weight:</span> &lt; 1.5 KG</li>
-            <li><span class="font-semibold">Display Type:</span> FHD</li>
-            <li><span class="font-semibold">Display:</span> 14” (approx. size)</li>
-            <li><span class="font-semibold">Warranty:</span> 3 Years</li>
-            <li><span class="font-semibold">Operating System:</span> Win 10 Pro</li>
-          </ul>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+          <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
+          
+            
+            <ul class="list-disc pl-6 space-y-2">
+              <li><span class="font-semibold">Laptop Type:</span> <?php echo $rows['spec_1']; ?></li>
+              <li><span class="font-semibold">Brand:</span> <?php echo $rows['spec_2']; ?></li>
+              <li><span class="font-semibold">Processor:</span> <?php echo $rows['spec_4']; ?></li>
+              <li><span class="font-semibold">Processor Generation:</span> <?php echo $rows['spec_5']; ?></li>
+              <li><span class="font-semibold">Storage:</span> <?php echo $rows['spec_6']; ?></li>
+              <li><span class="font-semibold">Memory (RAM):</span> <?php echo $rows['spec_7']; ?></li>
+              <li><span class="font-semibold">Weight:</span> <?php echo $rows['spec_8']; ?></li>
+              <li><span class="font-semibold">Display Type:</span> <?php echo $rows['spec_9']; ?></li>
+              <li><span class="font-semibold">Display:</span> <?php echo $rows['spec_10']; ?></li>
+              <li><span class="font-semibold">Warranty:</span> <?php echo $rows['spec_11']; ?></li>
+              <li><span class="font-semibold">Operating System:</span> <?php echo $rows['spec_12']; ?></li>
+            </ul>
+          <?php } } ?>
         </div>
       </div>
 
@@ -81,7 +87,6 @@ $result = mysqli_query($conn, $sql);
     </div>
   </div>
   
- 
   <div class="border-b border-slate-200">
     <button onclick="toggleAccordion(2)" class="w-full flex justify-between items-center py-5 text-slate-800">
       <span>Monitor Specification</span>
@@ -93,22 +98,29 @@ $result = mysqli_query($conn, $sql);
     </button>
     <div id="content-2" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out text-sm text-slate-500"">
       <div class="p-6">
-        <h2 class="text-xl font-semibold mb-4">Monitor Specification:</h2>
-        <ul class="list-disc pl-6 space-y-2">
-          <li><span class="font-semibold">Display Size (Inch):</span> &gt; 23 Inch</li>
-          <li><span class="font-semibold">Panel Type:</span> IPS</li>
-          <li><span class="font-semibold">Display Type:</span> FHD/UHD</li>
-          <li><span class="font-semibold">Display Resolution:</span> 1920 x 1080 (at least)</li>
-          <li><span class="font-semibold">Display Surface:</span> Anti-Glare</li>
-          <li><span class="font-semibold">Contrast Ratio:</span> 1000:1 static</li>
-          <li><span class="font-semibold">Crop Ratio:</span> 16:10 (preferred) / 16:09</li>
-          <li><span class="font-semibold">Height/Rotation Adjustments:</span> Must have height/rotation adjustments facility.</li>
-        </ul>
+      <?php
+          $sql = "SELECT * FROM device where id = 3";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+        <h2 class="text-xl font-semibold mb-4"></span> <?php echo $rows['name']; ?></h2>
+        
+            <ul class="list-disc pl-6 space-y-2">
+              <li><span class="font-semibold">Display Size (Inch):</span> <?php echo $rows['spec_1']; ?></li>
+              <li><span class="font-semibold">Panel Type:</span> <?php echo $rows['spec_2']; ?></li>
+              <li><span class="font-semibold">Display Type:</span> <?php echo $rows['spec_3']; ?></li>
+              <li><span class="font-semibold">Display Resolution:</span> <?php echo $rows['spec_4']; ?></li>
+              <li><span class="font-semibold">Display Surface:</span> <?php echo $rows['spec_5']; ?></li>
+              <li><span class="font-semibold">Contrast Ratio:</span> <?php echo $rows['spec_6']; ?></li>
+              <li><span class="font-semibold">Crop Ratio:</span> <?php echo $rows['spec_7']; ?></li>
+              <li><span class="font-semibold">Height/Rotation Adjustments:</span> <?php echo $rows['spec_8']; ?></li>
+            </ul>
+          <?php } } ?>
       </div>
 
     </div>
-  </div>
-  
+  </div>  
   
   <div class="border-b border-slate-200">
     <button onclick="toggleAccordion(3)" class="w-full flex justify-between items-center py-5 text-slate-800">
@@ -122,18 +134,25 @@ $result = mysqli_query($conn, $sql);
     <div id="content-3" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
       <div class="pb-5 text-sm text-slate-500">
         <div class="p-6">
-          <h2 class="text-xl font-semibold mb-4">Printer Specification:</h2>
+        <?php
+          $sql = "SELECT * FROM device where id = 4";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+          <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
           <ul class="list-disc pl-6 space-y-2">
-            <li><span class="font-semibold">Brand:</span> HP (Network Duplexing)</li>
-            <li><span class="font-semibold">Function:</span> Print Only (Auto duplexing)</li>
-            <li><span class="font-semibold">Type:</span> Single Function Mono Laser</li>
-            <li><span class="font-semibold">Processor Speed:</span> &gt; 1 GHz</li>
-            <li><span class="font-semibold">Memory:</span> 128 (minimum)</li>
-            <li><span class="font-semibold">Connectivity:</span> USB & LAN (Wi-Fi optional)</li>
-            <li><span class="font-semibold">Print Speed (PPM):</span> &gt; 35 ppm</li>
-            <li><span class="font-semibold">First Page Print:</span> &lt; 6 sec</li>
-            <li><span class="font-semibold">Reference Link:</span> <a href="#" class="text-blue-500 underline">here</a></li>
+            <li><span class="font-semibold">Brand:</span> <?php echo $rows['spec_1']; ?></li>
+            <li><span class="font-semibold">Function:</span> <?php echo $rows['spec_2']; ?></li>
+            <li><span class="font-semibold">Type:</span> <?php echo $rows['spec_3']; ?></li>
+            <li><span class="font-semibold">Processor Speed:</span> <?php echo $rows['spec_4']; ?></li>
+            <li><span class="font-semibold">Memory:</span> <?php echo $rows['spec_5']; ?></li>
+            <li><span class="font-semibold">Connectivity:</span> <?php echo $rows['spec_6']; ?></li>
+            <li><span class="font-semibold">Print Speed (PPM):</span><?php echo $rows['spec_7']; ?></li>
+            <li><span class="font-semibold">First Page Print:</span> <?php echo $rows['spec_8']; ?></li>
+            <li><span class="font-semibold">Reference Link:</span> <a href="https://www.startech.com.bd/hp-laserJet-pro-m404dn-printer" class="text-blue-500 underline">here</a></li>
           </ul>
+          <?php } } ?>
         </div>
       </div>
       
@@ -153,26 +172,40 @@ $result = mysqli_query($conn, $sql);
       <div class="p-6 flex justify-between text-sm text-slate-500">
         <!-- Standard Throw Specification -->
         <div>
-          <h2 class="text-xl font-semibold mb-4">Projector Specification - Standard Throw:</h2>
+        <?php
+          $sql = "SELECT * FROM device where id = 5";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+          <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
           <ul class="list-disc pl-6 space-y-2">
-            <li><span class="font-semibold">Resolution:</span> WXGA / SXGA / FHD</li>
-            <li><span class="font-semibold">Brightness:</span> &gt;= 4,000 (4000-4500) Lumens</li>
-            <li><span class="font-semibold">Contrast Ratio:</span> &gt;= 16,000:1</li>
-            <li><span class="font-semibold">Lamp Life:</span> &gt;= 6000 Hours (Normal)</li>
-            <li><span class="font-semibold">Reference Link:</span> <a href="#" class="text-blue-500 underline">here</a></li>
+            <li><span class="font-semibold">Resolution:</span> <?php echo $rows['spec_1']; ?></li>
+            <li><span class="font-semibold">Brightness:</span> <?php echo $rows['spec_2']; ?></li>
+            <li><span class="font-semibold">Contrast Ratio:</span> <?php echo $rows['spec_3']; ?></li>
+            <li><span class="font-semibold">Lamp Life:</span> <?php echo $rows['spec_4']; ?></li>
+            <li><span class="font-semibold">Reference Link:</span> <a href="https://www.startech.com.bd/boxlight-alx462-xga-projector" class="text-blue-500 underline">here</a></li>
           </ul>
+          <?php } } ?>
         </div>
 
         <!-- Short Throw Specification -->
         <div>
-          <h2 class="text-xl font-semibold mb-4">Projector Specification - Short Throw:</h2>
+        <?php
+          $sql = "SELECT * FROM device where id = 6";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+          <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
           <ul class="list-disc pl-6 space-y-2">
-            <li><span class="font-semibold">Type:</span> Short Throw Projector</li>
-            <li><span class="font-semibold">Resolution:</span> WXGA / XGA</li>
-            <li><span class="font-semibold">Brightness:</span> &gt;= 3,500 (3500-4500) Lumens</li>
-            <li><span class="font-semibold">Contrast Ratio:</span> &gt;= 16,000:1</li>
-            <li><span class="font-semibold">Lamp Life:</span> &gt;= 6000 Hours (Normal)</li>
+            <li><span class="font-semibold">Type:</span> <?php echo $rows['spec_1']; ?></li>
+            <li><span class="font-semibold">Resolution:</span> <?php echo $rows['spec_2']; ?></li>
+            <li><span class="font-semibold">Brightness:</span> <?php echo $rows['spec_3']; ?></li>
+            <li><span class="font-semibold">Contrast Ratio:</span> <?php echo $rows['spec_4']; ?></li>
+            <li><span class="font-semibold">Lamp Life:</span> <?php echo $rows['spec_5']; ?></li>
           </ul>
+          <?php } } ?>
         </div>
       </div>
     </div>
@@ -190,18 +223,24 @@ $result = mysqli_query($conn, $sql);
     </button>
     <div id="content-5" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
       <div class="p-6 text-sm text-slate-500">
-        <h2 class="text-xl font-semibold mb-4">Specifications:</h2>
+      <?php
+          $sql = "SELECT * FROM device where id = 7";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+          <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
         <ul class="list-disc pl-6 space-y-2">
-          <li><span class="font-semibold">Brand:</span> HP</li>
-          <li><span class="font-semibold">Print/Copy Type:</span> Black</li>
-          <li><span class="font-semibold">Duplex Facility:</span> Auto</li>
-          <li><span class="font-semibold">Print/Copy Speed:</span> 25 ppm (minimum)</li>
-          <li><span class="font-semibold">Paper Capacity:</span> Standard 250 Sheets (minimum)</li>
-          <li><span class="font-semibold">Function:</span> Print, Copy & Scan</li>
-          <li><span class="font-semibold">Model:</span> HP LaserJet Pro MFP M227fdw Multifunction Mono Laser Printer</li>
-          <li><span class="font-semibold">Buy:</span> Buy HP LaserJet Pro MFP M227fdw Multifunction Mono Laser Printer at competitive price in Bangladesh. Order online or visit your nearest Star Tech branch.</li>
-          <li><span class="font-semibold">Reference Link:</span> <a href="#" class="text-blue-500 underline">here</a></li>
+          <li><span class="font-semibold">Brand:</span>  <?php echo $rows['spec_1']; ?></li>
+          <li><span class="font-semibold">Print/Copy Type:</span>  <?php echo $rows['spec_2']; ?></li>
+          <li><span class="font-semibold">Duplex Facility:</span>  <?php echo $rows['spec_3']; ?></li>
+          <li><span class="font-semibold">Print/Copy Speed:</span>  <?php echo $rows['spec_4']; ?></li>
+          <li><span class="font-semibold">Paper Capacity:</span>  <?php echo $rows['spec_5']; ?></li>
+          <li><span class="font-semibold">Function:</span>  <?php echo $rows['spec_6']; ?></li>
+          <li><span class="font-semibold">Model:</span>  <?php echo $rows['spec_7']; ?></li>
+          <li><span class="font-semibold">Reference Link:</span> <a href="https://www.startech.com.bd/hp-laserJet-pro-mfp-m227fdw" class="text-blue-500 underline">here</a></li>
         </ul>
+        <?php } } ?>
       </div>
     </div>
   </div>
@@ -218,20 +257,27 @@ $result = mysqli_query($conn, $sql);
     <div id="content-6" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
       <div class="pb-5 text-sm text-slate-500">
         <div class="p-6">
-        <h2 class="text-xl font-semibold mb-4">Specifications:</h2>
+        <?php
+          $sql = "SELECT * FROM device where id = 8";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+            <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
         <ul class="list-disc pl-6 space-y-2">
-          <li><span class="font-semibold">Brand:</span> Toshiba / Canon / Ricoh</li>
-          <li><span class="font-semibold">Function:</span> Auto Duplex Facilities (must include RADF)</li>
-          <li><span class="font-semibold">Print/Copy Speed:</span> 25 ppm (at least)</li>
-          <li><span class="font-semibold">Paper Capacity:</span> Standard 350 Sheets</li>
-          <li><span class="font-semibold">Mandatory Functionality:</span> Print & Scan</li>
-          <li><span class="font-semibold">Required Features:</span> Scan to email</li>
-          <li><span class="font-semibold">RAM:</span> 2 GB</li>
-          <li><span class="font-semibold">Optional Feature:</span> 128 GB (minimum) storage to facilitate “Scan to File/Share Location” feature</li>
-          <li><span class="font-semibold">Model:</span> Toshiba e-Studio 2528A + RADF</li>
-          <li><span class="font-semibold">Description:</span> Buy Toshiba e-Studio 2528A (with RADF) Auto Duplex Multifunctional Monochrome 25 cpm/ppm Copier Machine with the Best Price available in our Online Shop and in Store at BME.</li>
-          <li><span class="font-semibold">Reference Link:</span> <a href="#" class="text-blue-500 underline">here</a></li>
+          <li><span class="font-semibold">Brand:</span> <?php echo $rows['spec_1']; ?></li>
+          <li><span class="font-semibold">Function:</span> <?php echo $rows['spec_2']; ?></li>
+          <li><span class="font-semibold">Print/Copy Speed:</span> <?php echo $rows['spec_3']; ?></li>
+          <li><span class="font-semibold">Paper Capacity:</span> <?php echo $rows['spec_4']; ?></li>
+          <li><span class="font-semibold">Mandatory Functionality:</span> <?php echo $rows['spec_5']; ?></li>
+          <li><span class="font-semibold">Required Features:</span> <?php echo $rows['spec_6']; ?></li>
+          <li><span class="font-semibold">RAM:</span> <?php echo $rows['spec_7']; ?></li>
+          <li><span class="font-semibold">Optional Feature:</span> <?php echo $rows['spec_8']; ?></li>
+          <li><span class="font-semibold">Model:</span> <?php echo $rows['spec_9']; ?></li>
+          <li><span class="font-semibold">Description:</span> <?php echo $rows['spec_10']; ?></li>
+          <li><span class="font-semibold">Reference Link:</span> <a href="https://bme.com.bd/toshiba-e-studio-2528a-auto-duplex-photocopier" class="text-blue-500 underline">here</a></li>
         </ul>
+        <?php } } ?>
       </div>
       </div>
     </div>
@@ -250,20 +296,34 @@ $result = mysqli_query($conn, $sql);
       <div class="pb-5 text-sm text-slate-500">
           <div class="p-6 flex justify-between">
             <div>
-              <h2 class="text-xl font-semibold mb-4">Camera Specifications:</h2>
+            <?php
+          $sql = "SELECT * FROM device where id = 9";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+            <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
               <ul class="list-disc pl-6 space-y-2">
-                <li><span class="font-semibold">Model:</span> Sony ZV-E10 with 16-50mm Lens</li>
-                <li><span class="font-semibold">Required Unit:</span> 01</li>
+                <li><span class="font-semibold">Model:</span> <?php echo $rows['spec_1']; ?></li>
+                <li><span class="font-semibold">Required Unit:</span> <?php echo $rows['spec_2']; ?></li>
               </ul>
+              <?php } } ?>
             </div>
             <div>
 
-              <h2 class="text-xl font-semibold mb-4">Camera Accessories:</h2>
+            <?php
+          $sql = "SELECT * FROM device where id = 10";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+            <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
               <ul class="list-disc pl-6 space-y-2">
-                <li><span class="font-semibold">Memory Card:</span> 128GB 90 Mbps, 01 unit</li>
-                <li><span class="font-semibold">Carry Bag:</span> 01 unit</li>
-                <li><span class="font-semibold">Gimbal:</span> Any reputed brand with image and video stabilizer feature, 01 unit</li>
+                <li><span class="font-semibold">Memory Card:</span> <?php echo $rows['spec_1']; ?></li>
+                <li><span class="font-semibold">Carry Bag:</span><?php echo $rows['spec_2']; ?></li>
+                <li><span class="font-semibold">Gimbal:</span> <?php echo $rows['spec_3']; ?></li>
               </ul>
+              <?php } } ?>
             </div>
           </div>
       </div>
@@ -282,16 +342,23 @@ $result = mysqli_query($conn, $sql);
     <div id="content-8" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
       <div class="pb-5 text-sm text-slate-500">
         <div class="p-6">
-        <h2 class="text-xl font-semibold mb-4">Docking Specification</h2>
+        <?php
+          $sql = "SELECT * FROM device where id = 11";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+            <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
         <ul class="list-disc pl-6 space-y-2">
-          <li><span class="font-semibold">MPN:</span> 80133</li>
-          <li><span class="font-semibold">Model:</span> CM179</li>
-          <li><span class="font-semibold">Number Of Ports:</span> 10</li>
-          <li><span class="font-semibold">Interface:</span> VGA, Ethernet, HDMI, USB 3.0</li>
-          <li><span class="font-semibold">Devices:</span> Smartphones, Tablets, Laptops, Desktops</li>
-          <li><span class="font-semibold">Input:</span> 1x USB-C Male, 1x USB-C Female</li>
-          <li><span class="font-semibold">Reference Link:</span> <a href="#" class="text-blue-500 underline">here</a></li>
+          <li><span class="font-semibold">MPN:</span> <?php echo $rows['spec_1']; ?></li>
+          <li><span class="font-semibold">Model:</span><?php echo $rows['spec_2']; ?></li>
+          <li><span class="font-semibold">Number Of Ports:</span> <?php echo $rows['spec_3']; ?></li>
+          <li><span class="font-semibold">Interface:</span> <?php echo $rows['spec_4']; ?></li>
+          <li><span class="font-semibold">Devices:</span> <?php echo $rows['spec_5']; ?></li>
+          <li><span class="font-semibold">Input:</span> <?php echo $rows['spec_6']; ?></li>
+          <li><span class="font-semibold">Reference Link:</span> <a href="https://www.startech.com.bd/ugreen-cm179-10-in-1-usb-c-multifunction-hub" class="text-blue-500 underline">here</a></li>
         </ul>
+        <?php } } ?>
       </div>
 
       </div>
@@ -311,44 +378,72 @@ $result = mysqli_query($conn, $sql);
       <div class="pb-5 text-sm text-slate-500">
         <div class="space-y-4 flex justify-between">
           <div class="p-4">
-            <h2 class="text-xl font-semibold mb-4">Wired</h2>
+          <?php
+          $sql = "SELECT * FROM device where id = 12";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+            <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
             <ul class="list-disc pl-6 space-y-2">
-              <li><strong>Model:</strong> H214U</li>
-              <li><strong>Connection Type:</strong> USB</li>
-              <li><strong>Frequency:</strong> 20Hz to 20KHz</li>
-              <li><strong>Reference Link:</strong> <a href="#" class="text-blue-500 hover:underline">here</a></li>
+              <li><strong>Model:</strong><?php echo $rows['spec_1']; ?></li>
+              <li><strong>Connection Type:</strong> <?php echo $rows['spec_2']; ?></li>
+              <li><strong>Frequency:</strong> <?php echo $rows['spec_3']; ?></li>
+              <li><strong>Reference Link:</strong> <a href="https://www.ryans.com/havit-hv-h610bt-over-ear-bluetooth-black-headphone" class="text-blue-500 hover:underline">here</a></li>
             </ul>
+            <?php } } ?>
           </div>
           
           <div class="p-4">
-            <h2 class="text-xl font-semibold mb-4">Wireless</h2>
+          <?php
+          $sql = "SELECT * FROM device where id = 13";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+            <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
             <ul class="list-disc pl-6 space-y-2">
-              <li><strong>Model:</strong> Havit H610BT</li>
-              <li><strong>Connection Type:</strong> Wireless</li>
-              <li><strong>Frequency:</strong> 20Hz - 20KHz</li>
-              <li><strong>Reference Link:</strong> <a href="#" class="text-blue-500 hover:underline">here</a></li>
+              <li><strong>Model:</strong><?php echo $rows['spec_1']; ?></li>
+              <li><strong>Connection Type:</strong> <?php echo $rows['spec_2']; ?></li>
+              <li><strong>Frequency:</strong> <?php echo $rows['spec_3']; ?></li>
+              <li><strong>Reference Link:</strong> <a href="https://www.startech.com.bd/havit-h214u-wired-led-usb-headset" class="text-blue-500 hover:underline">here</a></li>
             </ul>
+            <?php } } ?>
           </div>
 
           <div class="p-4">
-            <h2 class="text-xl font-semibold mb-4">Wireless</h2>
+          <?php
+          $sql = "SELECT * FROM device where id = 14";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+            <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
             <ul class="list-disc pl-6 space-y-2">
-              <li><strong>Model:</strong> Edifier W600BT</li>
-              <li><strong>Connection Type:</strong> Wireless</li>
-              <li><strong>Frequency:</strong> 20Hz - 20KHz</li>
-              <li><strong>Reference Link:</strong> <a href="#" class="text-blue-500 hover:underline">here</a></li>
+              <li><strong>Model:</strong><?php echo $rows['spec_1']; ?></li>
+              <li><strong>Connection Type:</strong> <?php echo $rows['spec_2']; ?></li>
+              <li><strong>Frequency:</strong> <?php echo $rows['spec_3']; ?></li>
+              <li><strong>Reference Link:</strong> <a href="https://www.startech.com.bd/edifier-w600bt-bluetooth-stereo-headphone" class="text-blue-500 hover:underline">here</a></li>
             </ul>
+            <?php } } ?>
           </div>
 
           <div class="p-4">
-            <h2 class="text-xl font-semibold mb-4">Wireless</h2>
+          <?php
+          $sql = "SELECT * FROM device where id = 15";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+            <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
             <ul class="list-disc pl-6 space-y-2">
-              <li><strong>Model:</strong> Edifier WH700NB ANC</li>
-              <li><strong>Connection Type:</strong> Wireless</li>
-              <li><strong>Frequency:</strong> 20Hz - 20KHz</li>
-              <li><strong>Noise cancellation</strong></li>
-              <li><strong>Reference Link:</strong> <a href="#" class="text-blue-500 hover:underline">here</a></li>
+              <li><strong>Model:</strong> <?php echo $rows['spec_1']; ?></li>
+              <li><strong>Connection Type:</strong> <?php echo $rows['spec_2']; ?></li>
+              <li><strong>Frequency:</strong><?php echo $rows['spec_3']; ?></li>
+              <li><?php echo $rows['spec_4']; ?></li>
+              <li><strong>Reference Link:</strong> <a href="https://www.startech.com.bd/edifier-wh700nb-bluetooth-headphone" class="text-blue-500 hover:underline">here</a></li>
             </ul>
+            <?php } } ?>
           </div>
         </div>
       </div>
@@ -368,25 +463,39 @@ $result = mysqli_query($conn, $sql);
         <div class="pb-5 text-sm text-slate-500">
           <div class="px-8 flex justify-between">
             <div class="p-4">
-              <h2 class="text-xl font-semibold mb-4">Mouse & Keyboard Combo</h2>
+            <?php
+          $sql = "SELECT * FROM device where id = 16";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+            <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
               <ul class="list-disc pl-6 space-y-2">
-                <li><strong>Model:</strong> A4TECH FG1112</li>
-                <li><strong>Connection Type:</strong> Wireless</li>
-                <li><strong>Battery:</strong> 2*AAA Alkaline Batteries</li>
-                <li><strong>Adjustable Keyboard Legs:</strong> Yes</li>
-                <li><strong>Reference Link:</strong> <a href="#" class="text-blue-500 hover:underline">here</a></li>
+                <li><strong>Model:</strong> <?php echo $rows['spec_1']; ?></li>
+                <li><strong>Connection Type:</strong> <?php echo $rows['spec_2']; ?></li>
+                <li><strong>Battery:</strong><?php echo $rows['spec_3']; ?></li>
+                <li><strong>Adjustable Keyboard Legs:</strong> <?php echo $rows['spec_4']; ?></li>
+                <li><strong>Reference Link:</strong> <a href="https://www.startech.com.bd/a4tech-fg1112-keyboard-mouse-combo" class="text-blue-500 hover:underline">here</a></li>
               </ul>
+              <?php } } ?>
             </div>
 
             <div class="p-4">
-              <h2 class="text-xl font-semibold mb-4">Mouse</h2>
+            <?php
+          $sql = "SELECT * FROM device where id = 17";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+            <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
               <ul class="list-disc pl-6 space-y-2">
-                <li><strong>Model:</strong> Logitech M187</li>
-                <li><strong>Connection Type:</strong> Wireless</li>
-                <li><strong>Battery:</strong> 1 AA battery</li>
-                <li><strong>Interface:</strong> USB receiver</li>
-                <li><strong>Reference Link:</strong> <a href="#" class="text-blue-500 hover:underline">here</a></li>
+                <li><strong>Model:</strong> <?php echo $rows['spec_1']; ?></li>
+                <li><strong>Connection Type:</strong>  <?php echo $rows['spec_2']; ?></li>
+                <li><strong>Battery:</strong>  <?php echo $rows['spec_3']; ?></li>
+                <li><strong>Interface:</strong> <?php echo $rows['spec_4']; ?></li>
+                <li><strong>Reference Link:</strong> <a href="https://www.startech.com.bd/Logitech-M187-Wireless-Extra-small-Mouse" class="text-blue-500 hover:underline">here</a></li>
               </ul>
+              <?php } } ?>
             </div>
           </div>
         </div>
@@ -406,22 +515,29 @@ $result = mysqli_query($conn, $sql);
         <div class="pb-5 text-sm text-slate-500">
           <div class="space-y-4 flex justify-between">
             <div class="p-4">
-              <h3 class="text-xl font-semibold mb-4">Laptop Stand</h3>
+            <?php
+          $sql = "SELECT * FROM device where id = 18";
+          $result = mysqli_query($conn, $sql);
+          ?>
+          <?php if ($result) { while ($rows = mysqli_fetch_array($result)) {
+            ?>
+            <h2 class="text-xl font-semibold mb-4"><?php echo $rows['name']; ?></h2>
               <ul class="list-disc pl-6 space-y-2">
-                <li><strong>Model:</strong> Baseus LUJS000012</li>
-                <li><strong>Compatible with:</strong> 11 to 17.3-inch Laptops</li>
-                <li><strong>Design:</strong> Hollow-carved design</li>
-                <li><strong>Adjustable viewing angle:</strong> Yes</li>
-                <li><strong>Stepless height adjustable:</strong> Yes</li>
-                <li><strong>Reference Link:</strong> <a href="#" class="text-blue-500 hover:underline">here</a></li>
+                <li><strong>Model:</strong><?php echo $rows['spec_1']; ?></li>
+                <li><strong>Compatible with:</strong> <?php echo $rows['spec_2']; ?></li>
+                <li><strong>Design:</strong> <?php echo $rows['spec_3']; ?></li>
+                <li><strong>Adjustable viewing angle:</strong> <?php echo $rows['spec_4']; ?></li>
+                <li><strong>Stepless height adjustable:</strong> <?php echo $rows['spec_5']; ?></li>
+                <li><strong>Reference Link:</strong> <a href="https://www.startech.com.bd/baseus-lujs000012-metal-adjustable-laptop-stand" class="text-blue-500 hover:underline">here</a></li>
               </ul>
+              <?php } } ?>
             </div>
           </div>
         </div>
       </div>
   </div>
 
-  </div>
+</div>
  
 <script>
   function toggleAccordion(index) {
